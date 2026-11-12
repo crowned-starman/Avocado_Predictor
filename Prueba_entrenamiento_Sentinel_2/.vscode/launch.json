@@ -1,0 +1,155 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Revisar entorno",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "doctor"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Inspeccionar 600M sin pesos",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "inspect-model"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3. Planear cobertura 2025",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "plan"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4. Probar tres descargas",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "download",
+        "--max-records",
+        "3"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "5. Descargar piloto 2025",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "download"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "6. Preparar pasado y futuro",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "prepare"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "7. Probar tres contextos Prithvi",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "features",
+        "--max-records",
+        "3"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "8. Extraer todas las características",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "features"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "9. Entrenar ConvLSTM y salida",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "train"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "10. Reanudar pronóstico",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "train",
+        "--resume"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "11. Evaluar fechas reservadas",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "evaluate"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "12. Estimar semana posterior",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/pronostico.py",
+      "args": [
+        "predict"
+      ],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+
+  ]
+}

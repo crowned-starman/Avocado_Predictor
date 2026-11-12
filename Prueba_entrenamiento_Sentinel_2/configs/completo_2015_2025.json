@@ -1,0 +1,71 @@
+{
+  "work_dir": "work/cobertura_completa_2015_2025",
+  "grid_epsg": 32614,
+  "aoi": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -102.2362,
+          19.288836
+        ],
+        [
+          -102.2362,
+          19.619134
+        ],
+        [
+          -101.671895,
+          19.619134
+        ],
+        [
+          -101.671895,
+          19.288836
+        ],
+        [
+          -102.2362,
+          19.288836
+        ]
+      ]
+    ]
+  },
+  "data": {
+    "start": "2015-01-01",
+    "end": "2025-12-31",
+    "bands": [
+      "B02",
+      "B03",
+      "B04",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "resolution_m": 30,
+    "size": 224,
+    "frames": 4,
+    "max_cloud": 0.3,
+    "min_valid_fraction": 0.8,
+    "candidates_per_week": 3,
+    "max_spatial_tiles": null,
+    "train_fraction": 0.7,
+    "val_fraction": 0.15
+  },
+  "model": {
+    "repo": "ibm-nasa-geospatial/Prithvi-EO-2.0-600M-TL",
+    "revision": "3d72adc6dfc4cc3862bf4f41da8c83db267193c9",
+    "weights": "Prithvi_EO_V2_600M_TL.pt"
+  },
+  "forecast": {
+    "horizon_weeks": 1,
+    "epochs": 10,
+    "batch_size": 1,
+    "accumulate": 4,
+    "hidden_channels": 64,
+    "project_channels": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 4,
+    "clip_grad": 1.0,
+    "amp": true
+  },
+  "seed": 42
+}
