@@ -1,0 +1,576 @@
+﻿Anio,Idestado,Nomestado,Idddr,Nomddr,Idcader,Nomcader,Idmunicipio,Nommunicipio,Idciclo,Nomcicloproductivo,Idmodalidad,Nommodalidad,Idunidadmedida,Nomunidad,Idcultivo,Nomcultivo,Sembrada,Cosechada,Siniestrada,Volumenproduccion,Rendimiento,Preciomediorural,Valorproduccion,CVEGEO,anio_archivo
+2020,16,Michoacán,81,Coahuayana,1,Aquila,8,Aquila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,25.25,5.05,13993.18,353327.8,16008,2020
+2020,16,Michoacán,81,Coahuayana,3,Chinicuila,26,Chinicuila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,94.0,94.0,0.0,253.8,2.7,17396.79,4415305.3,16026,2020
+2020,16,Michoacán,82,Aguililla,1,Aguililla,2,Aguililla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,45.0,36.0,0.0,475.2,13.2,18040.8,8572988.16,16002,2020
+2020,16,Michoacán,82,Aguililla,2,Coalcomán,15,Coalcomán de Vázquez Pallares,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,523.0,478.0,0.0,4732.2,9.9,18754.69,88750944.02,16015,2020
+2020,16,Michoacán,85,Apatzingán,1,Apatzingán,6,Apatzingán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,981.0,644.0,0.0,6652.52,10.33,18725.79,124573692.49,16006,2020
+2020,16,Michoacán,85,Apatzingán,2,Tepalcatepec,89,Tepalcatepec,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,17.0,0.0,0.0,0.0,0.0,0.0,0.0,16089,2020
+2020,16,Michoacán,85,Apatzingán,5,Gabriel Zamora,59,Nuevo Urecho,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,293.35,208.1,0.0,2168.4,10.42,18639.93,40418824.21,16059,2020
+2020,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4280.0,4280.0,0.0,48768.8,11.39,23109.16,1127005994.89,16058,2020
+2020,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4660.0,4660.0,0.0,44034.8,9.45,23668.0,1042215743.61,16058,2020
+2020,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3740.0,3740.0,0.0,41100.4,10.99,24521.26,1007833780.14,16083,2020
+2020,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,19200.0,19200.0,0.0,184320.0,9.6,23816.05,4389774336.0,16083,2020
+2020,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,11110.0,11110.0,0.0,120546.8,10.85,24644.48,2970813220.45,16102,2020
+2020,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,6380.0,6380.0,0.0,63729.0,9.99,24168.64,1540243089.9,16102,2020
+2020,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1400.0,1400.0,0.0,14477.5,10.34,23958.47,346858733.65,16087,2020
+2020,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,900.0,900.0,0.0,8540.0,9.49,24722.61,211131098.0,16087,2020
+2020,16,Michoacán,86,Uruapan,2,Ziracuaretiro,90,Tingambato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4150.0,4150.0,0.0,38579.75,9.3,23887.54,921575421.44,16090,2020
+2020,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3400.0,3400.0,0.0,40800.0,12.0,22956.89,936641112.0,16111,2020
+2020,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1825.0,1825.0,0.0,16758.15,9.18,24041.31,402887942.91,16111,2020
+2020,16,Michoacán,86,Uruapan,3,Paracho,21,Charapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1780.0,1780.0,0.0,16198.0,9.1,23311.48,377599353.04,16021,2020
+2020,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,267.0,267.0,0.0,3030.45,11.35,27057.92,81997673.66,16084,2020
+2020,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2789.0,2789.0,0.0,31542.6,11.31,24436.88,770802677.78,16084,2020
+2020,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,67.0,67.0,0.0,616.4,9.2,29880.74,18418488.14,16025,2020
+2020,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1264.0,1254.0,0.0,12540.0,10.0,25513.44,319938537.6,16025,2020
+2020,16,Michoacán,87,Zamora,2,Tangancícuaro,70,Purépero,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,859.0,851.0,0.0,7659.0,9.0,25229.25,193230825.75,16070,2020
+2020,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1854.0,1850.0,0.0,19002.3,10.27,26255.57,498916165.82,16085,2020
+2020,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,20.0,20.0,0.0,242.0,12.1,26865.88,6501542.96,16094,2020
+2020,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,254.0,250.0,0.0,2300.0,9.2,25468.83,58578309.0,16094,2020
+2020,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2842.0,2837.0,0.0,35284.1,12.44,29290.8,1033499492.96,16068,2020
+2020,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8874.0,8868.0,0.0,103755.6,11.7,21962.89,2278772829.68,16068,2020
+2020,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1299.0,1294.0,0.0,15799.3,12.21,26182.47,413664726.09,16075,2020
+2020,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5030.0,5020.0,0.0,58232.0,11.6,21741.86,1266071991.52,16075,2020
+2020,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,539.0,533.0,0.0,6432.5,12.07,30036.66,193210795.88,16019,2020
+2020,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2005.0,2000.0,0.0,20620.0,10.31,27917.39,575656581.8,16019,2020
+2020,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1341.0,1336.0,0.0,18696.2,13.99,26159.44,489082125.02,16091,2020
+2020,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4010.0,4000.0,0.0,48000.0,12.0,26700.01,1281600480.0,16091,2020
+2020,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,228.0,223.0,0.0,2870.9,12.87,28924.66,83039807.2,16095,2020
+2020,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,810.0,800.0,0.0,8400.0,10.5,26484.28,222467952.0,16095,2020
+2020,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,62,Pajacuarán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,66.0,11.0,27265.16,1799500.56,16062,2020
+2020,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,76,Sahuayo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,10.0,10.0,0.0,113.0,11.3,28460.18,3216000.34,16076,2020
+2020,16,Michoacán,88,Sahuayo,2,Jiquilpan,45,Jiquilpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,150.0,70.0,0.0,924.0,13.2,27811.8,25698103.2,16045,2020
+2020,16,Michoacán,89,La Piedad,1,Vista Hermosa,86,Tanhuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10.0,2.0,0.0,25.0,12.5,21152.11,528802.75,16086,2020
+2020,16,Michoacán,89,La Piedad,1,Vista Hermosa,105,Vista Hermosa,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,0.0,0.0,0.0,0.0,0.0,0.0,16105,2020
+2020,16,Michoacán,89,La Piedad,1,Vista Hermosa,106,Yurécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,7.0,2.0,0.0,26.8,13.4,20826.12,558140.02,16106,2020
+2020,16,Michoacán,89,La Piedad,3,Zacapu,16,Coeneo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,55.0,35.0,0.0,355.25,10.15,20990.0,7456697.5,16016,2020
+2020,16,Michoacán,89,La Piedad,3,Zacapu,44,Jiménez,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,560.0,500.0,0.0,5250.0,10.5,21300.0,111825000.0,16044,2020
+2020,16,Michoacán,89,La Piedad,3,Zacapu,107,Zacapu,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3910.0,2962.0,0.0,32582.0,11.0,21500.0,700513000.0,16107,2020
+2020,16,Michoacán,89,La Piedad,4,Sixto Verduzco,54,Morelos,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,137.0,92.0,0.0,1012.0,11.0,21200.0,21454400.0,16054,2020
+2020,16,Michoacán,90,Pátzcuaro,1,Quiroga,32,Erongarícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,686.0,642.0,0.0,8570.7,13.35,17312.03,148376215.52,16032,2020
+2020,16,Michoacán,90,Pátzcuaro,1,Quiroga,39,Huiramba,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,218.0,197.0,0.0,2159.12,10.96,17434.7,37643609.46,16039,2020
+2020,16,Michoacán,90,Pátzcuaro,1,Quiroga,48,Lagunillas,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,37.0,26.0,0.0,282.36,10.86,17006.97,4802088.05,16048,2020
+2020,16,Michoacán,90,Pátzcuaro,1,Quiroga,66,Pátzcuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1090.0,863.0,0.0,9234.1,10.7,17460.97,161236343.08,16066,2020
+2020,16,Michoacán,90,Pátzcuaro,1,Quiroga,73,Quiroga,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,20.0,20.0,0.0,215.0,10.75,20340.63,4373235.45,16073,2020
+2020,16,Michoacán,90,Pátzcuaro,1,Quiroga,100,Tzintzuntzan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,54.0,47.0,0.0,459.99,9.79,18551.71,8533601.08,16100,2020
+2020,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6716.0,6548.0,0.0,84564.6,12.91,18260.12,1544160140.59,16009,2020
+2020,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,9510.0,9310.0,0.0,106785.7,11.47,18164.52,1939710983.36,16009,2020
+2020,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8055.0,7847.0,0.0,99162.54,12.64,19571.89,1940798325.0,16079,2020
+2020,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8460.0,8358.0,0.0,89597.76,10.72,18991.63,1701607506.75,16079,2020
+2020,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,9879.0,9789.0,0.0,106024.86,10.83,18967.28,2011003176.48,16082,2020
+2020,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,7231.0,7180.0,0.0,72711.86,10.13,19391.24,1409973128.11,16082,2020
+2020,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1287.0,1265.0,0.0,17737.81,14.02,18794.41,333371711.5,16097,2020
+2020,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5060.0,4780.0,0.0,49998.8,10.46,18788.22,939388454.14,16097,2020
+2020,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1661.0,1530.0,0.0,13923.0,9.1,18899.32,263135232.36,16001,2020
+2020,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,346.0,312.0,0.0,2870.0,9.2,19061.66,54706964.2,16001,2020
+2020,16,Michoacán,91,Morelia,1,Morelia,49,Madero,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1665.0,1438.0,0.0,14236.2,9.9,19134.31,272399864.02,16049,2020
+2020,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,918.0,830.0,0.0,8715.0,10.5,18913.9,164834638.5,16053,2020
+2020,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,451.0,368.0,0.0,3496.0,9.5,20053.18,70105917.28,16053,2020
+2020,16,Michoacán,91,Morelia,2,Cuitzeo,18,Copándaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,35.0,8.75,17564.66,614763.1,16018,2020
+2020,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,44.0,32.0,0.0,225.0,7.03,18448.78,4150975.5,16022,2020
+2020,16,Michoacán,91,Morelia,3,Álvaro Obregón,40,Indaparapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,3.0,0.0,29.43,9.81,18000.64,529758.84,16040,2020
+2020,16,Michoacán,91,Morelia,3,Álvaro Obregón,88,Tarímbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,2.0,0.0,15.62,7.81,18000.0,281160.0,16088,2020
+2020,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,32.0,18.0,0.0,153.0,8.5,17756.84,2716796.52,16072,2020
+2020,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,140.0,57.0,0.0,560.0,9.82,17405.36,9747001.6,16110,2020
+2020,16,Michoacán,91,Morelia,5,Tzitzio,101,Tzitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,54.0,44.0,0.0,315.0,7.16,17931.47,5648413.05,16101,2020
+2020,16,Michoacán,92,Huetamo,3,Carácuaro,57,Nocupétaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,46.0,7.67,24302.17,1117899.82,16057,2020
+2020,16,Michoacán,92,Huetamo,4,Tuzantla,99,Tuzantla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,18.0,18.0,0.0,260.0,14.44,22300.0,5798000.0,16099,2020
+2020,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,42.0,7.0,19899.72,835788.24,16050,2020
+2020,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,21.0,7.0,20617.48,432967.08,16050,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,51.0,51.0,0.0,370.0,7.25,20633.79,7634502.3,16034,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,80.0,80.0,0.0,660.0,8.25,21607.02,14260633.2,16041,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,102.0,102.0,0.0,760.0,7.45,22260.48,16917964.8,16041,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,21.0,21.0,0.0,178.0,8.48,19453.85,3462785.3,16047,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2.5,2.5,0.0,19.0,7.6,18214.19,346069.61,16047,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,318.0,318.0,0.0,2200.0,6.92,18467.45,40628390.0,16098,2020
+2020,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,62.0,62.0,0.0,410.0,6.61,20695.98,8485351.8,16098,2020
+2020,16,Michoacán,93,Zitácuaro,4,Zitácuaro,46,Juárez,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,40.0,40.0,0.0,390.0,9.75,19778.86,7713755.4,16046,2020
+2020,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,33.3,26.0,0.0,149.0,5.73,20028.42,2984234.58,16061,2020
+2020,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,61.0,61.0,0.0,480.0,7.87,20213.4,9702432.0,16061,2020
+2020,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,203.3,203.3,0.0,1910.0,9.39,20658.23,39457219.3,16081,2020
+2020,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,547.0,547.0,0.0,5410.0,9.89,16956.25,91733312.5,16112,2020
+2020,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,778.0,778.0,0.0,7100.0,9.13,19423.65,137907915.0,16112,2020
+2021,16,Michoacán,81,Coahuayana,1,Aquila,8,Aquila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,11.5,2.3,18086.96,208000.04,16008,2021
+2021,16,Michoacán,81,Coahuayana,3,Chinicuila,26,Chinicuila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,94.0,94.0,0.0,205.86,2.19,18407.85,3789440.0,16026,2021
+2021,16,Michoacán,82,Aguililla,1,Aguililla,2,Aguililla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,45.0,45.0,0.0,607.5,13.5,18409.78,11183941.35,16002,2021
+2021,16,Michoacán,82,Aguililla,2,Coalcomán,15,Coalcomán de Vázquez Pallares,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,523.0,523.0,0.0,7060.5,13.5,19411.85,137057366.9,16015,2021
+2021,16,Michoacán,85,Apatzingán,1,Apatzingán,6,Apatzingán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,981.0,644.0,0.0,6652.52,10.33,18655.37,124105222.0,16006,2021
+2021,16,Michoacán,85,Apatzingán,2,Tepalcatepec,89,Tepalcatepec,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,17.0,0.0,0.0,0.0,0.0,0.0,0.0,16089,2021
+2021,16,Michoacán,85,Apatzingán,5,Gabriel Zamora,59,Nuevo Urecho,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,293.35,208.1,0.0,2168.4,10.42,17981.3,38990650.92,16059,2021
+2021,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4280.0,4280.0,0.0,49154.0,11.48,21622.63,1062838891.0,16058,2021
+2021,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4660.0,4660.0,0.0,44719.0,9.6,21886.59,978746614.5,16058,2021
+2021,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3740.0,3740.0,0.0,41437.0,11.08,22949.41,950954584.3,16083,2021
+2021,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,20990.0,19200.0,0.0,186240.0,9.7,21008.25,3912576480.0,16083,2021
+2021,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,11110.0,11110.0,0.0,121572.0,10.94,23532.65,2860911738.0,16102,2021
+2021,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,6380.0,6380.0,0.0,64507.0,10.11,22283.51,1437442158.0,16102,2021
+2021,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1400.0,1400.0,0.0,14615.0,10.44,22337.99,326469783.5,16087,2021
+2021,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1930.0,900.0,0.0,8630.0,9.59,24473.67,211207793.8,16087,2021
+2021,16,Michoacán,86,Uruapan,2,Ziracuaretiro,90,Tingambato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4250.0,4150.0,0.0,41395.0,9.97,22231.77,920284305.3,16090,2021
+2021,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3400.0,3400.0,0.0,41140.0,12.1,20859.81,858172583.4,16111,2021
+2021,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1825.0,1825.0,0.0,16940.0,9.28,22862.3,387287285.2,16111,2021
+2021,16,Michoacán,86,Uruapan,3,Paracho,21,Charapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1780.0,1780.0,0.0,16376.0,9.2,19789.48,324072524.5,16021,2021
+2021,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,272.0,267.0,0.0,3070.5,11.5,20418.36,62694574.38,16084,2021
+2021,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3129.0,2789.0,0.0,29732.17,10.66,20734.15,616471293.5,16084,2021
+2021,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,67.0,67.0,0.0,769.83,11.49,20293.2,15622314.16,16025,2021
+2021,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1264.0,1254.0,0.0,12916.2,10.3,19937.84,257521129.0,16025,2021
+2021,16,Michoacán,87,Zamora,2,Tangancícuaro,70,Purépero,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,859.0,851.0,0.0,8084.5,9.5,20123.46,162688112.4,16070,2021
+2021,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1854.0,1850.0,0.0,19099.05,10.32,20145.42,384758294.5,16085,2021
+2021,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,20.0,20.0,0.0,250.0,12.5,19988.91,4997227.5,16094,2021
+2021,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,257.0,250.0,0.0,2575.0,10.3,20114.03,51793627.25,16094,2021
+2021,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2842.0,2837.0,0.0,35404.25,12.48,22877.97,809977472.8,16068,2021
+2021,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8874.0,8868.0,0.0,104021.64,11.73,20549.73,2137616616.0,16068,2021
+2021,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1299.0,1294.0,0.0,15851.5,12.25,21178.18,335705904.6,16075,2021
+2021,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5850.0,5020.0,0.0,58483.0,11.65,20469.64,1197125956.0,16075,2021
+2021,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,539.0,533.0,0.0,6437.65,12.08,23242.41,149626501.4,16019,2021
+2021,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2161.0,2000.0,0.0,20700.0,10.35,21130.96,437410872.0,16019,2021
+2021,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1341.0,1336.0,0.0,18653.0,13.96,20761.29,387260355.0,16091,2021
+2021,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4010.0,4000.0,0.0,48400.0,12.1,20554.41,994833444.0,16091,2021
+2021,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,228.0,223.0,0.0,2880.05,12.92,21743.43,62622170.57,16095,2021
+2021,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,810.0,800.0,0.0,8440.0,10.55,21083.54,177945077.6,16095,2021
+2021,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,62,Pajacuarán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,49.98,8.33,22840.01,1141543.7,16062,2021
+2021,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,76,Sahuayo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,13.0,11.0,0.0,110.0,10.0,21227.27,2334999.7,16076,2021
+2021,16,Michoacán,88,Sahuayo,2,Jiquilpan,45,Jiquilpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,150.0,95.0,0.0,1009.85,10.63,23070.89,23298138.27,16045,2021
+2021,16,Michoacán,89,La Piedad,1,Vista Hermosa,86,Tanhuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10.0,4.0,0.0,51.2,12.8,19728.97,1010123.26,16086,2021
+2021,16,Michoacán,89,La Piedad,1,Vista Hermosa,105,Vista Hermosa,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,1.0,0.0,12.95,12.95,20101.28,260311.58,16105,2021
+2021,16,Michoacán,89,La Piedad,1,Vista Hermosa,106,Yurécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,3.0,0.0,39.54,13.18,20124.61,795727.08,16106,2021
+2021,16,Michoacán,89,La Piedad,3,Zacapu,16,Coeneo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,62.0,40.0,0.0,417.6,10.44,17338.91,7240728.82,16016,2021
+2021,16,Michoacán,89,La Piedad,3,Zacapu,44,Jiménez,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,578.0,510.0,0.0,5237.7,10.27,18910.13,99045587.9,16044,2021
+2021,16,Michoacán,89,La Piedad,3,Zacapu,63,Panindícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,0.0,0.0,0.0,0.0,0.0,0.0,16063,2021
+2021,16,Michoacán,89,La Piedad,3,Zacapu,107,Zacapu,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4000.0,3000.0,0.0,33090.0,11.03,19072.8,631118952.0,16107,2021
+2021,16,Michoacán,89,La Piedad,4,Sixto Verduzco,54,Morelos,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,147.0,100.0,0.0,1105.0,11.05,19001.99,20997198.95,16054,2021
+2021,16,Michoacán,90,Pátzcuaro,1,Quiroga,32,Erongarícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,686.0,680.0,0.0,9180.0,13.5,21016.91,192935233.8,16032,2021
+2021,16,Michoacán,90,Pátzcuaro,1,Quiroga,39,Huiramba,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,228.0,214.0,0.0,2354.0,11.0,20973.21,49370936.34,16039,2021
+2021,16,Michoacán,90,Pátzcuaro,1,Quiroga,48,Lagunillas,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,42.0,34.0,0.0,374.0,11.0,21011.41,7858267.34,16048,2021
+2021,16,Michoacán,90,Pátzcuaro,1,Quiroga,66,Pátzcuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1100.0,1038.0,0.0,11210.4,10.8,21209.28,237764512.5,16066,2021
+2021,16,Michoacán,90,Pátzcuaro,1,Quiroga,73,Quiroga,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,193.0,193.0,0.0,2084.4,10.8,21116.85,44015962.14,16073,2021
+2021,16,Michoacán,90,Pátzcuaro,1,Quiroga,100,Tzintzuntzan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,54.0,50.0,0.0,500.0,10.0,21177.1,10588550.0,16100,2021
+2021,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6731.0,6623.0,0.0,85613.68,12.93,21218.37,1816582881.0,16009,2021
+2021,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,9520.0,9385.0,0.0,107645.95,11.47,21553.97,2320197577.0,16009,2021
+2021,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8090.0,7935.0,0.0,100377.75,12.65,21147.46,2122734453.0,16079,2021
+2021,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8485.0,8428.0,0.0,92876.56,11.02,21219.52,1970796022.0,16079,2021
+2021,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,9939.0,9879.0,0.0,109926.97,11.13,21046.05,2313528915.0,16082,2021
+2021,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,7231.0,7206.0,0.0,73068.84,10.14,21230.83,1551312120.0,16082,2021
+2021,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1342.0,1277.0,0.0,17862.89,13.99,21148.44,377772331.0,16097,2021
+2021,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5085.0,5050.0,0.0,52873.5,10.47,21009.55,1110848442.0,16097,2021
+2021,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1602.0,1466.0,0.0,15393.0,10.5,18386.57,283024472.0,16001,2021
+2021,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,332.0,274.0,0.0,2603.0,9.5,20096.72,52311762.16,16001,2021
+2021,16,Michoacán,91,Morelia,1,Morelia,49,Madero,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1607.0,1368.0,0.0,14500.8,10.6,19854.76,287909903.8,16049,2021
+2021,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1026.0,910.0,0.0,10192.0,11.2,19566.37,199420443.0,16053,2021
+2021,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,433.0,330.0,0.0,3498.0,10.6,19634.7,68682180.6,16053,2021
+2021,16,Michoacán,91,Morelia,2,Cuitzeo,18,Copándaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,36.2,9.05,16939.32,613203.38,16018,2021
+2021,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,106.0,82.0,0.0,754.4,9.2,16631.32,12546667.81,16022,2021
+2021,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,46.0,26.0,0.0,182.0,7.0,17572.77,3198244.14,16022,2021
+2021,16,Michoacán,91,Morelia,3,Álvaro Obregón,40,Indaparapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,36.5,7.3,16528.02,603272.73,16040,2021
+2021,16,Michoacán,91,Morelia,3,Álvaro Obregón,88,Tarímbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,21.0,7.0,17216.4,361544.4,16088,2021
+2021,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,37.0,20.0,0.0,200.0,10.0,16898.36,3379672.0,16072,2021
+2021,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,36.0,19.0,0.0,174.8,9.2,17544.69,3066811.81,16072,2021
+2021,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,151.0,75.0,0.0,765.0,10.2,17079.61,13065901.65,16110,2021
+2021,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,74.0,45.0,0.0,270.0,6.0,18623.85,5028439.5,16110,2021
+2021,16,Michoacán,91,Morelia,5,Tzitzio,101,Tzitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,71.0,55.0,0.0,410.3,7.46,16761.96,6877432.19,16101,2021
+2021,16,Michoacán,92,Huetamo,3,Carácuaro,57,Nocupétaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,42.0,7.0,22040.48,925700.16,16057,2021
+2021,16,Michoacán,92,Huetamo,4,Tuzantla,99,Tuzantla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,18.0,18.0,0.0,199.08,11.06,21496.48,4279519.24,16099,2021
+2021,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,52.02,8.67,21665.88,1127059.08,16050,2021
+2021,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,15.0,5.0,20552.0,308280.0,16050,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,52.0,52.0,0.0,380.12,7.31,23005.91,8745006.51,16034,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,82.0,82.0,0.0,410.0,5.0,21400.23,8774094.3,16041,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,105.0,105.0,0.0,438.9,4.18,21814.47,9574370.88,16041,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,25.0,25.0,0.0,200.0,8.0,20566.45,4113290.0,16047,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,20.01,6.67,21327.46,426762.47,16047,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,340.0,318.0,0.0,2200.56,6.92,21848.38,48078671.09,16098,2021
+2021,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,460.2,7.08,22024.77,10135799.15,16098,2021
+2021,16,Michoacán,93,Zitácuaro,4,Zitácuaro,46,Juárez,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,42.0,42.0,0.0,280.14,6.67,21669.71,6070552.56,16046,2021
+2021,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,28.0,28.0,0.0,145.04,5.18,20777.49,3013567.15,16061,2021
+2021,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,490.1,7.54,20698.99,10144575.0,16061,2021
+2021,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,206.0,206.0,0.0,1483.2,7.2,21489.48,31873196.74,16081,2021
+2021,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,780.0,780.0,0.0,4290.0,5.5,21087.01,90463272.9,16112,2021
+2022,16,Michoacán,81,Coahuayana,1,Aquila,8,Aquila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,13.0,2.6,18305.61,237972.93,16008,2022
+2022,16,Michoacán,81,Coahuayana,3,Chinicuila,26,Chinicuila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,94.0,94.0,0.0,263.2,2.8,18220.31,4795585.59,16026,2022
+2022,16,Michoacán,82,Aguililla,1,Aguililla,2,Aguililla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,45.0,45.0,0.0,609.75,13.55,20533.07,12520039.43,16002,2022
+2022,16,Michoacán,82,Aguililla,2,Coalcomán,15,Coalcomán de Vázquez Pallares,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,523.0,523.0,0.0,7065.73,13.51,19998.21,141301952.3,16015,2022
+2022,16,Michoacán,85,Apatzingán,1,Apatzingán,6,Apatzingán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,981.0,754.0,0.0,7788.82,10.33,18999.92,147986956.9,16006,2022
+2022,16,Michoacán,85,Apatzingán,2,Tepalcatepec,89,Tepalcatepec,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,17.0,17.0,0.0,173.4,10.2,20638.73,3578755.78,16089,2022
+2022,16,Michoacán,85,Apatzingán,5,Gabriel Zamora,59,Nuevo Urecho,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,293.35,248.1,0.0,2585.2,10.42,21677.46,56040569.59,16059,2022
+2022,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4330.0,4280.0,0.0,49154.0,11.48,25950.32,1275562187.0,16058,2022
+2022,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4660.0,4660.0,0.0,44287.0,9.5,26000.6,1151488791.0,16058,2022
+2022,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3815.0,3740.0,0.0,41437.0,11.08,25571.41,1059602611.0,16083,2022
+2022,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,20990.0,19200.0,0.0,190080.0,9.9,26535.55,5043877344.0,16083,2022
+2022,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,11260.0,11110.0,0.0,121572.0,10.94,25925.11,3151768051.0,16102,2022
+2022,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,6380.0,6380.0,0.0,64507.0,10.11,26565.03,1713630206.0,16102,2022
+2022,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1425.0,1400.0,0.0,14615.0,10.44,25152.54,367604385.3,16087,2022
+2022,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1930.0,900.0,0.0,8630.0,9.59,25593.17,220869057.8,16087,2022
+2022,16,Michoacán,86,Uruapan,2,Ziracuaretiro,90,Tingambato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4250.0,4150.0,0.0,41395.0,9.97,25592.4,1059397500.0,16090,2022
+2022,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3400.0,3400.0,0.0,41140.0,12.1,25484.22,1048420811.0,16111,2022
+2022,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1825.0,1825.0,0.0,16940.0,9.28,26089.42,441954800.4,16111,2022
+2022,16,Michoacán,86,Uruapan,3,Paracho,21,Charapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1805.0,1780.0,0.0,16376.0,9.2,26015.89,426036214.6,16021,2022
+2022,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,272.0,267.0,0.0,3069.97,11.5,24973.78,76668755.39,16084,2022
+2022,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3129.0,2789.0,0.0,31833.5,11.41,24798.38,789419349.7,16084,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,67.0,67.0,0.0,620.02,9.25,24735.89,15336746.52,16025,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1264.0,1264.0,0.0,13019.2,10.3,25455.0,331403736.0,16025,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,70,Purépero,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,859.0,859.0,0.0,8160.5,9.5,25091.83,204761878.7,16070,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,67.0,67.0,0.0,700.02,10.45,24770.45,17339810.41,16085,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1854.0,1854.0,0.0,19142.29,10.32,25214.9,482670840.7,16085,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,20.0,20.0,0.0,250.0,12.5,24926.03,6231507.5,16094,2022
+2022,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,257.0,254.0,0.0,2413.0,9.5,25861.52,62403847.76,16094,2022
+2022,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2842.0,2842.0,0.0,35467.0,12.48,25239.18,895157854.7,16068,2022
+2022,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8874.0,8874.0,0.0,104021.03,11.72,25764.37,2680036305.0,16068,2022
+2022,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1299.0,1299.0,0.0,15913.76,12.25,25168.59,400526840.0,16075,2022
+2022,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5850.0,5030.0,0.0,58599.5,11.65,25494.97,1493992495.0,16075,2022
+2022,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,539.0,539.0,0.0,6506.4,12.07,25672.95,167038476.6,16019,2022
+2022,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2161.0,2000.0,0.0,20700.0,10.35,24826.16,513901512.0,16019,2022
+2022,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1351.0,1341.0,0.0,18914.5,14.1,25280.91,478175769.4,16091,2022
+2022,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4010.0,4010.0,0.0,48521.0,12.1,24649.87,1196036342.0,16091,2022
+2022,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,228.0,228.0,0.0,2943.75,12.91,24400.04,71827621.69,16095,2022
+2022,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,810.0,810.0,0.0,8545.5,10.55,25146.31,214887792.1,16095,2022
+2022,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,62,Pajacuarán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,70.02,11.67,24246.16,1697716.12,16062,2022
+2022,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,76,Sahuayo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,13.0,11.0,0.0,132.0,12.0,23267.56,3071317.92,16076,2022
+2022,16,Michoacán,88,Sahuayo,2,Jiquilpan,45,Jiquilpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,150.0,105.0,0.0,1290.45,12.29,26250.9,33875473.91,16045,2022
+2022,16,Michoacán,89,La Piedad,1,Vista Hermosa,86,Tanhuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10.0,4.0,0.0,51.2,12.8,21904.68,1121519.62,16086,2022
+2022,16,Michoacán,89,La Piedad,1,Vista Hermosa,105,Vista Hermosa,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,2.0,0.0,9.0,4.5,21203.05,190827.45,16105,2022
+2022,16,Michoacán,89,La Piedad,1,Vista Hermosa,106,Yurécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,52.45,10.49,21403.2,1122597.84,16106,2022
+2022,16,Michoacán,89,La Piedad,3,Zacapu,16,Coeneo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,62.0,50.0,0.0,522.0,10.44,21198.79,11065768.38,16016,2022
+2022,16,Michoacán,89,La Piedad,3,Zacapu,44,Jiménez,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,578.0,510.0,0.0,5240.25,10.28,20945.83,109761385.7,16044,2022
+2022,16,Michoacán,89,La Piedad,3,Zacapu,63,Panindícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,52.0,10.4,21925.86,1140144.72,16063,2022
+2022,16,Michoacán,89,La Piedad,3,Zacapu,107,Zacapu,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4000.0,3200.0,0.0,35200.0,11.0,20952.06,737512512.0,16107,2022
+2022,16,Michoacán,89,La Piedad,4,Sixto Verduzco,54,Morelos,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,147.0,100.0,0.0,1105.0,11.05,20556.24,22714645.2,16054,2022
+2022,16,Michoacán,90,Pátzcuaro,1,Quiroga,32,Erongarícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,697.0,686.0,0.0,9261.0,13.5,23916.39,221489687.8,16032,2022
+2022,16,Michoacán,90,Pátzcuaro,1,Quiroga,39,Huiramba,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,228.0,218.0,0.0,2398.0,11.0,24740.34,59327335.32,16039,2022
+2022,16,Michoacán,90,Pátzcuaro,1,Quiroga,48,Lagunillas,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,42.0,37.0,0.0,407.0,11.0,25418.82,10345459.74,16048,2022
+2022,16,Michoacán,90,Pátzcuaro,1,Quiroga,66,Pátzcuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1175.0,1090.0,0.0,11772.0,10.8,24578.68,289340221.0,16066,2022
+2022,16,Michoacán,90,Pátzcuaro,1,Quiroga,73,Quiroga,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,193.0,193.0,0.0,2084.59,10.8,26187.26,54589700.32,16073,2022
+2022,16,Michoacán,90,Pátzcuaro,1,Quiroga,100,Tzintzuntzan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,54.0,54.0,0.0,540.0,10.0,24513.64,13237365.6,16100,2022
+2022,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6904.0,6824.0,0.0,88218.64,12.93,23818.01,2101192387.0,16009,2022
+2022,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,9610.0,9500.0,0.0,108965.0,11.47,24720.73,2693694344.0,16009,2022
+2022,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8135.0,8015.0,0.0,101389.75,12.65,25103.43,2545230492.0,16079,2022
+2022,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8530.0,8460.0,0.0,93229.2,11.02,24331.52,2268408144.0,16079,2022
+2022,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10009.0,9899.0,0.0,110825.3,11.2,26088.61,2891277759.0,16082,2022
+2022,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,7311.0,7231.0,0.0,73069.26,10.11,24335.0,1778140442.0,16082,2022
+2022,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1422.0,1282.0,0.0,18161.74,14.17,24517.72,445284423.1,16097,2022
+2022,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5150.0,5060.0,0.0,52978.2,10.47,24301.73,1287461912.0,16097,2022
+2022,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1602.0,1506.0,0.0,15493.0,10.29,25367.19,393013874.7,16001,2022
+2022,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,332.0,244.0,0.0,2603.0,10.67,24763.37,64459052.11,16001,2022
+2022,16,Michoacán,91,Morelia,1,Morelia,49,Madero,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1636.0,1468.0,0.0,14600.8,9.95,25122.74,366812102.2,16049,2022
+2022,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1026.0,941.0,0.0,10539.2,11.2,25936.19,273346693.7,16053,2022
+2022,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,433.0,360.0,0.0,3816.0,10.6,26452.98,100944571.7,16053,2022
+2022,16,Michoacán,91,Morelia,2,Cuitzeo,18,Copándaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,36.2,9.05,26452.28,957572.54,16018,2022
+2022,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,106.0,87.0,0.0,795.0,9.14,24820.72,19732472.4,16022,2022
+2022,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,46.0,34.0,0.0,252.0,7.41,26766.94,6745268.88,16022,2022
+2022,16,Michoacán,91,Morelia,3,Álvaro Obregón,40,Indaparapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,36.5,7.3,24377.94,889794.81,16040,2022
+2022,16,Michoacán,91,Morelia,3,Álvaro Obregón,88,Tarímbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,21.0,7.0,25300.85,531317.85,16088,2022
+2022,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,37.0,26.0,0.0,260.0,10.0,24281.13,6313093.8,16072,2022
+2022,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,41.0,24.0,0.0,220.8,9.2,23672.91,5226978.53,16072,2022
+2022,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,151.0,100.0,0.0,1020.0,10.2,23977.37,24456917.4,16110,2022
+2022,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,74.0,60.0,0.0,360.0,6.0,24427.7,8793972.0,16110,2022
+2022,16,Michoacán,91,Morelia,5,Tzitzio,101,Tzitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,71.0,61.0,0.0,457.0,7.49,24274.94,11093647.58,16101,2022
+2022,16,Michoacán,92,Huetamo,3,Carácuaro,57,Nocupétaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,58.02,9.67,19550.88,1134342.06,16057,2022
+2022,16,Michoacán,92,Huetamo,4,Tuzantla,99,Tuzantla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,18.0,18.0,0.0,275.04,15.28,22000.0,6050880.0,16099,2022
+2022,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,61.02,10.17,21798.75,1330159.73,16050,2022
+2022,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,26.01,8.67,21500.0,559215.0,16050,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,52.0,52.0,0.0,450.84,8.67,22327.66,10066202.23,16034,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,82.0,82.0,0.0,716.68,8.74,21622.66,15496527.97,16041,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,112.0,105.0,0.0,895.65,8.53,23064.57,20657782.12,16041,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,29.0,25.0,0.0,244.0,9.76,20997.95,5123499.8,16047,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,26.01,8.67,22573.4,587134.13,16047,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,340.0,318.0,0.0,2397.72,7.54,21547.57,51665039.54,16098,2022
+2022,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,549.25,8.45,22363.77,12283300.67,16098,2022
+2022,16,Michoacán,93,Zitácuaro,4,Zitácuaro,46,Juárez,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,42.0,42.0,0.0,511.98,12.19,23208.41,11882241.75,16046,2022
+2022,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,31.0,31.0,0.0,234.98,7.58,22469.32,5279840.81,16061,2022
+2022,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,551.2,8.48,23600.21,13008435.75,16061,2022
+2022,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,206.0,206.0,0.0,2080.6,10.1,23665.87,49239209.12,16081,2022
+2022,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,553.0,553.0,0.0,5607.42,10.14,22183.82,124393995.9,16112,2022
+2022,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,780.0,780.0,0.0,8213.4,10.53,21963.62,180395996.5,16112,2022
+2023,16,Michoacán,81,Coahuayana,1,Aquila,8,Aquila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,38.0,7.6,18703.07,710716.66,16008,2023
+2023,16,Michoacán,81,Coahuayana,3,Chinicuila,26,Chinicuila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,94.0,94.0,0.0,648.6,6.9,18237.61,11828913.85,16026,2023
+2023,16,Michoacán,82,Aguililla,1,Aguililla,2,Aguililla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,45.0,45.0,0.0,612.0,13.6,16725.32,10235895.84,16002,2023
+2023,16,Michoacán,82,Aguililla,2,Coalcomán,15,Coalcomán de Vázquez Pallares,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,523.0,523.0,0.0,7086.65,13.55,18266.1,129445457.57,16015,2023
+2023,16,Michoacán,85,Apatzingán,1,Apatzingán,6,Apatzingán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1016.0,896.0,0.0,9273.6,10.35,17478.11,162085000.9,16006,2023
+2023,16,Michoacán,85,Apatzingán,2,Tepalcatepec,89,Tepalcatepec,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,17.0,17.0,0.0,173.74,10.22,20006.51,3475931.05,16089,2023
+2023,16,Michoacán,85,Apatzingán,5,Gabriel Zamora,59,Nuevo Urecho,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,293.35,280.85,0.0,2934.88,10.45,20106.55,59010311.46,16059,2023
+2023,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4330.0,4280.0,0.0,49620.0,11.59,18828.98,934294189.2,16058,2023
+2023,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4660.0,4660.0,0.0,44962.0,9.65,19364.77,870678986.74,16058,2023
+2023,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3815.0,3740.0,0.0,42260.0,11.3,19314.86,816245924.6,16083,2023
+2023,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,22000.0,22000.0,0.0,261360.0,11.88,19342.11,5055253869.6,16083,2023
+2023,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,12510.0,12360.0,0.0,153340.0,12.41,19880.76,3048515654.8,16102,2023
+2023,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,6380.0,6380.0,0.0,65671.0,10.29,20207.4,1327039863.48,16102,2023
+2023,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1425.0,1400.0,0.0,14830.0,10.59,19513.47,289384825.45,16087,2023
+2023,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1930.0,1930.0,0.0,18801.5,9.74,21744.15,408822717.7,16087,2023
+2023,16,Michoacán,86,Uruapan,2,Ziracuaretiro,90,Tingambato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4250.0,4250.0,0.0,42710.0,10.05,20635.5,881342414.85,16090,2023
+2023,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3400.0,3400.0,0.0,41140.0,12.1,18254.52,750990952.8,16111,2023
+2023,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1825.0,1825.0,0.0,17122.5,9.38,21390.85,366264824.63,16111,2023
+2023,16,Michoacán,86,Uruapan,3,Paracho,21,Charapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1805.0,1780.0,0.0,16465.0,9.25,18310.24,301478101.6,16021,2023
+2023,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,275.0,270.0,0.0,3105.0,11.5,19808.15,61504305.75,16084,2023
+2023,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3143.0,3014.0,0.0,34421.0,11.42,19850.54,683275516.7,16084,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,72.0,67.0,0.0,619.75,9.25,19718.56,12220577.56,16025,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1274.0,1264.0,0.0,13019.2,10.3,19865.35,258630964.72,16025,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,70,Purépero,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,865.0,849.0,0.0,8065.5,9.5,19961.71,161001172.01,16070,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,67.0,67.0,0.0,700.15,10.45,19754.05,13830798.11,16085,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1862.0,1854.0,0.0,19140.45,10.32,19026.53,364176267.17,16085,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,20.0,20.0,0.0,250.0,12.5,19539.6,4884900.0,16094,2023
+2023,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,259.0,254.0,0.0,2413.0,9.5,20534.13,49548855.69,16094,2023
+2023,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2867.0,2842.0,0.0,35467.0,12.48,21071.24,747333665.32,16068,2023
+2023,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,9415.0,9400.0,0.0,123046.0,13.09,20212.02,2487008212.92,16068,2023
+2023,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1324.0,1299.0,0.0,15913.63,12.25,19977.84,317919937.24,16075,2023
+2023,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5870.0,5430.0,0.0,63259.5,11.65,19989.34,1264515653.73,16075,2023
+2023,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,601.0,539.0,0.0,6502.35,12.06,21591.55,140395804.23,16019,2023
+2023,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2167.0,2151.0,0.0,22262.85,10.35,20601.9,458657009.42,16019,2023
+2023,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1361.0,1341.0,0.0,18914.6,14.1,19959.2,377520343.17,16091,2023
+2023,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4061.0,4036.0,0.0,48881.1,12.11,19817.11,968682085.57,16091,2023
+2023,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,238.0,228.0,0.0,2943.8,12.91,19866.07,58481735.37,16095,2023
+2023,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,848.0,833.0,0.0,8873.25,10.65,19563.54,173592157.94,16095,2023
+2023,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,62,Pajacuarán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,72.0,12.0,18463.29,1329356.88,16062,2023
+2023,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,76,Sahuayo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,14.0,11.0,0.0,132.0,12.0,18508.0,2443056.0,16076,2023
+2023,16,Michoacán,88,Sahuayo,2,Jiquilpan,45,Jiquilpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,155.0,135.0,0.0,1620.0,12.0,18696.53,30288378.6,16045,2023
+2023,16,Michoacán,89,La Piedad,1,Vista Hermosa,86,Tanhuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10.0,10.0,0.0,128.0,12.8,20387.32,2609576.96,16086,2023
+2023,16,Michoacán,89,La Piedad,1,Vista Hermosa,105,Vista Hermosa,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,2.0,0.0,14.94,7.47,19984.18,298563.65,16105,2023
+2023,16,Michoacán,89,La Piedad,1,Vista Hermosa,106,Yurécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,52.45,10.49,19964.3,1047127.54,16106,2023
+2023,16,Michoacán,89,La Piedad,3,Zacapu,16,Coeneo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,62.0,62.0,0.0,647.9,10.45,20060.84,12997418.24,16016,2023
+2023,16,Michoacán,89,La Piedad,3,Zacapu,44,Jiménez,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,583.0,535.0,0.0,5510.5,10.3,19902.66,109673607.93,16044,2023
+2023,16,Michoacán,89,La Piedad,3,Zacapu,63,Panindícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,52.0,10.4,20109.91,1045715.32,16063,2023
+2023,16,Michoacán,89,La Piedad,3,Zacapu,107,Zacapu,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4000.0,3900.0,0.0,42900.0,11.0,19968.08,856630632.0,16107,2023
+2023,16,Michoacán,89,La Piedad,4,Sixto Verduzco,54,Morelos,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,147.0,137.0,0.0,1509.74,11.02,20244.14,30563387.92,16054,2023
+2023,16,Michoacán,90,Pátzcuaro,1,Quiroga,32,Erongarícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,697.0,687.0,0.0,9274.5,13.5,19465.73,180534912.89,16032,2023
+2023,16,Michoacán,90,Pátzcuaro,1,Quiroga,39,Huiramba,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,228.0,228.0,0.0,2530.8,11.1,19504.27,49361406.52,16039,2023
+2023,16,Michoacán,90,Pátzcuaro,1,Quiroga,48,Lagunillas,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,42.0,42.0,0.0,462.0,11.0,19705.2,9103802.4,16048,2023
+2023,16,Michoacán,90,Pátzcuaro,1,Quiroga,66,Pátzcuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1175.0,1100.0,0.0,11990.0,10.9,19552.57,234435314.3,16066,2023
+2023,16,Michoacán,90,Pátzcuaro,1,Quiroga,73,Quiroga,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,193.0,193.0,0.0,2103.7,10.9,19916.12,41897541.64,16073,2023
+2023,16,Michoacán,90,Pátzcuaro,1,Quiroga,100,Tzintzuntzan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,54.0,54.0,0.0,540.0,10.0,19497.13,10528450.2,16100,2023
+2023,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8191.79,8126.79,0.0,88645.54,10.91,18852.48,1671188035.8,16009,2023
+2023,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,12090.0,12000.0,0.0,151320.0,12.61,18982.31,2872403149.2,16009,2023
+2023,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,9080.0,9000.0,0.0,127710.0,14.19,18800.84,2401055276.4,16079,2023
+2023,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,9545.0,9500.0,0.0,122265.0,12.87,18759.91,2293680396.15,16079,2023
+2023,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10618.99,10385.0,0.0,215222.8,20.72,19037.64,4097334465.01,16082,2023
+2023,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8063.5,8000.0,0.0,95920.0,11.99,18835.28,1806680057.6,16082,2023
+2023,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1422.0,1342.0,0.0,19050.4,14.2,18414.9,350811182.53,16097,2023
+2023,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5150.0,5085.0,0.0,53392.5,10.5,18503.08,987925698.9,16097,2023
+2023,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1627.0,1594.0,0.0,16768.88,10.52,19427.21,325772553.22,16001,2023
+2023,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,332.0,332.0,0.0,3353.2,10.1,18946.64,63531873.25,16001,2023
+2023,16,Michoacán,91,Morelia,1,Morelia,49,Madero,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1576.0,1547.0,0.0,16274.44,10.52,19198.62,312446789.27,16049,2023
+2023,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1086.5,1011.5,0.0,10974.78,10.85,19356.67,212435194.78,16053,2023
+2023,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,478.0,433.0,0.0,4555.16,10.52,27246.57,124112485.8,16053,2023
+2023,16,Michoacán,91,Morelia,2,Cuitzeo,18,Copándaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,37.2,9.3,27245.85,1013545.62,16018,2023
+2023,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,106.0,106.0,0.0,1026.08,9.68,17660.0,18120572.8,16022,2023
+2023,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,46.0,46.0,0.0,349.6,7.6,27569.95,9638454.52,16022,2023
+2023,16,Michoacán,91,Morelia,3,Álvaro Obregón,40,Indaparapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,58.3,11.66,18099.39,1055194.44,16040,2023
+2023,16,Michoacán,91,Morelia,3,Álvaro Obregón,88,Tarímbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,21.87,7.29,26059.88,569929.58,16088,2023
+2023,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,37.0,37.0,0.0,373.7,10.1,18466.48,6900923.58,16072,2023
+2023,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,41.0,36.0,0.0,311.04,8.64,17416.06,5417091.3,16072,2023
+2023,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,151.0,151.0,0.0,1528.12,10.12,18619.04,28452127.4,16110,2023
+2023,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,74.0,74.0,0.0,499.5,6.75,17671.06,8826694.47,16110,2023
+2023,16,Michoacán,91,Morelia,5,Tzitzio,101,Tzitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,71.0,71.0,0.0,567.29,7.99,18803.63,10667111.26,16101,2023
+2023,16,Michoacán,92,Huetamo,3,Carácuaro,57,Nocupétaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,58.2,9.7,19257.84,1120806.29,16057,2023
+2023,16,Michoacán,92,Huetamo,4,Tuzantla,99,Tuzantla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,18.0,18.0,0.0,165.6,9.2,18864.47,3123956.23,16099,2023
+2023,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,61.2,10.2,17870.82,1093694.18,16050,2023
+2023,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,26.1,8.7,17053.81,445104.44,16050,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,15.0,0.0,0.0,0.0,0.0,0.0,0.0,16034,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,52.0,52.0,0.0,452.4,8.7,18817.97,8513249.63,16034,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,82.0,82.0,0.0,717.5,8.75,19440.85,13948809.88,16041,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,112.0,112.0,0.0,963.2,8.6,20011.52,19275096.06,16041,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,39.0,29.0,0.0,252.3,8.7,18536.21,4676685.78,16047,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,27.69,9.23,17424.82,482493.27,16047,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,340.0,340.0,0.0,3315.0,9.75,18223.53,60411001.95,16098,2023
+2023,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,550.55,8.47,17872.15,9839512.18,16098,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,46,Juárez,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,42.0,42.0,0.0,377.58,8.99,17591.49,6642194.79,16046,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,31.0,31.0,0.0,345.34,11.14,17504.89,6045138.71,16061,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,552.5,8.5,17157.8,9479684.5,16061,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,206.0,206.0,0.0,2084.72,10.12,17615.39,36723155.84,16081,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,206.0,206.0,0.0,2101.2,10.2,17055.41,35836827.49,16081,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,553.0,553.0,0.0,5889.45,10.65,17790.49,104776201.33,16112,2023
+2023,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,780.0,780.0,0.0,8229.0,10.55,17460.21,143680068.09,16112,2023
+2024,16,Michoacán,81,Coahuayana,1,Aquila,8,Aquila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,38.7,7.74,17133.5,663066.45,16008,2024
+2024,16,Michoacán,81,Coahuayana,3,Chinicuila,26,Chinicuila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,94.0,94.0,0.0,707.82,7.53,17097.76,12102136.48,16026,2024
+2024,16,Michoacán,82,Aguililla,1,Aguililla,2,Aguililla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,45.0,45.0,0.0,621.0,13.8,17718.32,11003076.72,16002,2024
+2024,16,Michoacán,82,Aguililla,2,Coalcomán,15,Coalcomán de Vázquez Pallares,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,523.0,523.0,0.0,7060.5,13.5,17473.17,123369316.8,16015,2024
+2024,16,Michoacán,85,Apatzingán,1,Apatzingán,6,Apatzingán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1016.0,981.0,0.0,10153.35,10.35,22237.06,225780653.2,16006,2024
+2024,16,Michoacán,85,Apatzingán,2,Tepalcatepec,89,Tepalcatepec,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,21.0,17.0,0.0,173.74,10.22,22199.57,3856953.29,16089,2024
+2024,16,Michoacán,85,Apatzingán,5,Gabriel Zamora,59,Nuevo Urecho,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,313.35,293.35,0.0,3068.44,10.46,22094.25,67794880.47,16059,2024
+2024,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4340.0,4305.0,0.0,49912.5,11.59,19637.4,980151699.3,16058,2024
+2024,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4663.0,4660.0,0.0,44496.0,9.55,19848.32,883170819.8,16058,2024
+2024,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3830.0,3785.0,0.0,42777.5,11.3,19960.93,853878706.2,16083,2024
+2024,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,20990.0,20990.0,0.0,211999.0,10.1,18907.29,4008326573.0,16083,2024
+2024,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,12275.0,12140.0,0.0,148535.6,12.24,20577.08,3056428633.0,16102,2024
+2024,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,6380.0,6380.0,0.0,65068.0,10.2,19762.57,1285910792.0,16102,2024
+2024,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1419.0,1407.0,0.0,14906.7,10.59,19944.17,297301787.6,16087,2024
+2024,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1930.0,1930.0,0.0,18633.5,9.65,19581.48,364871516.7,16087,2024
+2024,16,Michoacán,86,Uruapan,2,Ziracuaretiro,90,Tingambato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4250.0,4250.0,0.0,42580.0,10.02,20045.88,853553366.0,16090,2024
+2024,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3400.0,3400.0,0.0,41140.0,12.1,19087.88,785275383.2,16111,2024
+2024,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1825.0,1825.0,0.0,16800.0,9.21,19611.82,329478531.0,16111,2024
+2024,16,Michoacán,86,Uruapan,3,Paracho,21,Charapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1805.0,1790.0,0.0,16557.5,9.25,18894.6,312847339.5,16021,2024
+2024,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,275.0,270.0,0.0,3267.0,12.1,19238.17,62851101.39,16084,2024
+2024,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3143.0,3014.0,0.0,36403.4,12.08,18857.74,686485686.9,16084,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,72.0,68.0,0.0,666.4,9.8,19262.12,12836276.77,16025,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1274.0,1264.0,0.0,12892.8,10.2,18716.91,241313377.3,16025,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,70,Purépero,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,870.0,849.0,0.0,8574.9,10.1,18740.43,160697313.2,16070,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,67.0,67.0,0.0,676.7,10.1,19251.32,13027368.24,16085,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1862.0,1854.0,0.0,20547.1,11.08,18736.77,384986370.6,16085,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,20.0,20.0,0.0,240.0,12.0,19103.57,4584856.8,16094,2024
+2024,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,259.0,254.0,0.0,2819.4,11.1,18636.41,52543494.35,16094,2024
+2024,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2867.0,2850.0,0.0,35291.5,12.38,20387.13,719492245.6,16068,2024
+2024,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8889.0,8874.0,0.0,107375.4,12.1,18809.05,2019629267.0,16068,2024
+2024,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1324.0,1306.0,0.0,16154.8,12.37,19282.31,311501856.4,16075,2024
+2024,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5870.0,5490.0,0.0,65880.0,12.0,18856.59,1242272149.0,16075,2024
+2024,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,598.0,569.0,0.0,6874.3,12.08,19685.36,135323053.8,16019,2024
+2024,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2167.0,2151.0,0.0,26027.1,12.1,18696.59,486618017.6,16019,2024
+2024,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1361.0,1346.0,0.0,16376.6,12.17,18904.47,309590888.9,16091,2024
+2024,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4061.0,4039.0,0.0,48386.62,11.98,18802.76,909802003.0,16091,2024
+2024,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,238.0,229.0,0.0,2736.5,11.95,19588.77,53604681.62,16095,2024
+2024,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,848.0,836.0,0.0,10055.0,12.03,18927.94,190320431.4,16095,2024
+2024,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,62,Pajacuarán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,72.0,12.0,21166.57,1523993.04,16062,2024
+2024,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,76,Sahuayo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,14.0,11.0,0.0,132.0,12.0,18454.97,2436056.04,16076,2024
+2024,16,Michoacán,88,Sahuayo,2,Jiquilpan,45,Jiquilpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,155.0,140.0,0.0,1680.0,12.0,20245.39,34012255.2,16045,2024
+2024,16,Michoacán,89,La Piedad,1,Vista Hermosa,86,Tanhuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10.0,10.0,0.0,131.0,13.1,21160.86,2772072.66,16086,2024
+2024,16,Michoacán,89,La Piedad,1,Vista Hermosa,105,Vista Hermosa,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,2.0,0.0,14.0,7.0,20537.14,287519.96,16105,2024
+2024,16,Michoacán,89,La Piedad,1,Vista Hermosa,106,Yurécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,2.0,0.0,20.2,10.1,20560.79,415327.96,16106,2024
+2024,16,Michoacán,89,La Piedad,2,Numarán,67,Penjamillo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,18.0,0.0,0.0,0.0,,,0.0,16067,2024
+2024,16,Michoacán,89,La Piedad,3,Zacapu,16,Coeneo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,62.0,62.0,0.0,652.24,10.52,20883.3,13620923.59,16016,2024
+2024,16,Michoacán,89,La Piedad,3,Zacapu,44,Jiménez,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,583.0,535.0,0.0,5521.2,10.32,20813.74,114916821.3,16044,2024
+2024,16,Michoacán,89,La Piedad,3,Zacapu,63,Panindícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,45.0,9.0,20779.07,935058.15,16063,2024
+2024,16,Michoacán,89,La Piedad,3,Zacapu,107,Zacapu,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4000.0,4000.0,0.0,44440.0,11.11,20882.83,928032965.2,16107,2024
+2024,16,Michoacán,89,La Piedad,4,Sixto Verduzco,54,Morelos,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,152.0,137.0,0.0,1522.07,11.11,21154.43,32198523.27,16054,2024
+2024,16,Michoacán,89,La Piedad,4,Sixto Verduzco,71,Puruándiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,40.0,10.0,20799.57,831982.8,16071,2024
+2024,16,Michoacán,89,La Piedad,4,Sixto Verduzco,71,Puruándiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2.0,0.0,0.0,0.0,,,0.0,16071,2024
+2024,16,Michoacán,90,Pátzcuaro,1,Quiroga,32,Erongarícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,732.0,697.0,0.0,9416.47,13.51,22617.89,212980682.7,16032,2024
+2024,16,Michoacán,90,Pátzcuaro,1,Quiroga,39,Huiramba,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,258.0,228.0,0.0,2530.8,11.1,20663.13,52294249.4,16039,2024
+2024,16,Michoacán,90,Pátzcuaro,1,Quiroga,48,Lagunillas,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,47.0,42.0,0.0,466.2,11.1,22525.24,10501266.89,16048,2024
+2024,16,Michoacán,90,Pátzcuaro,1,Quiroga,66,Pátzcuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1260.0,1175.0,0.0,12807.5,10.9,22507.97,288270825.8,16066,2024
+2024,16,Michoacán,90,Pátzcuaro,1,Quiroga,73,Quiroga,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,208.0,193.0,0.0,2103.7,10.9,22469.58,47269255.45,16073,2024
+2024,16,Michoacán,90,Pátzcuaro,1,Quiroga,100,Tzintzuntzan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,59.0,54.0,0.0,540.0,10.0,19575.12,10570564.0,16100,2024
+2024,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8281.79,8191.79,0.0,96700.1,11.8,22520.91,2177774177.0,16009,2024
+2024,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,11613.17,11463.17,0.0,115892.65,10.11,22453.33,2602175915.0,16009,2024
+2024,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8224.0,8135.0,0.0,103314.5,12.7,22536.12,2328307970.0,16079,2024
+2024,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8606.0,8530.0,0.0,94683.0,11.1,22532.46,2133440910.0,16079,2024
+2024,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10198.0,9984.0,0.0,119742.24,11.99,22529.99,2697791882.0,16082,2024
+2024,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,7319.5,7206.0,0.0,73573.26,10.21,22536.35,1658072738.0,16082,2024
+2024,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1473.0,1422.0,0.0,20200.62,14.21,22415.26,452802216.3,16097,2024
+2024,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5190.0,5150.0,0.0,54126.5,10.51,22434.21,1214285268.0,16097,2024
+2024,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1634.0,1602.0,0.0,18647.28,11.64,17388.78,324253449.5,16001,2024
+2024,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,349.0,332.0,0.0,3422.92,10.31,16929.32,57947708.01,16001,2024
+2024,16,Michoacán,91,Morelia,1,Morelia,49,Madero,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1586.0,1561.0,0.0,18232.48,11.68,17343.3,316211370.4,16049,2024
+2024,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1097.5,1026.5,0.0,12030.58,11.72,17292.85,208043015.4,16053,2024
+2024,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,484.0,433.0,0.0,4594.13,10.61,23346.86,107258509.9,16053,2024
+2024,16,Michoacán,91,Morelia,2,Cuitzeo,18,Copándaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,4.0,0.0,37.24,9.31,22050.53,821161.74,16018,2024
+2024,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,114.0,106.0,0.0,988.98,9.33,17636.74,17442383.13,16022,2024
+2024,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,46.0,46.0,0.0,349.6,7.6,16590.85,5800161.16,16022,2024
+2024,16,Michoacán,91,Morelia,3,Álvaro Obregón,40,Indaparapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,29.0,7.25,16800.67,487219.43,16040,2024
+2024,16,Michoacán,91,Morelia,3,Álvaro Obregón,88,Tarímbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,31.4,7.85,21644.28,679630.39,16088,2024
+2024,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,35.0,35.0,0.0,357.35,10.21,17088.59,6106607.64,16072,2024
+2024,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,41.0,41.0,0.0,378.02,9.22,16665.29,6299812.93,16072,2024
+2024,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,178.0,151.0,0.0,1599.09,10.59,17548.11,28061007.22,16110,2024
+2024,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,74.0,74.0,0.0,494.32,6.68,16921.64,8364705.08,16110,2024
+2024,16,Michoacán,91,Morelia,5,Tzitzio,101,Tzitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,60.0,60.0,0.0,462.0,7.7,17066.11,7884542.82,16101,2024
+2024,16,Michoacán,92,Huetamo,3,Carácuaro,57,Nocupétaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,58.32,9.72,18750.19,1093511.08,16057,2024
+2024,16,Michoacán,92,Huetamo,4,Tuzantla,99,Tuzantla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,18.0,18.0,0.0,279.0,15.5,18096.93,5049043.47,16099,2024
+2024,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,62.1,10.35,18293.92,1136052.43,16050,2024
+2024,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,26.4,8.8,16742.49,442001.74,16050,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,15.0,0.0,0.0,0.0,,,0.0,16034,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,52.0,52.0,0.0,451.36,8.68,17205.35,7765806.78,16034,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,82.0,82.0,0.0,719.14,8.77,17409.67,12519990.08,16041,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,112.0,112.0,0.0,957.6,8.55,17280.1,16547423.76,16041,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,39.0,29.0,0.0,250.85,8.65,17490.43,4387474.37,16047,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,27.3,9.1,16660.58,454833.83,16047,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,340.0,340.0,0.0,3264.0,9.6,17894.93,58409051.52,16098,2024
+2024,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,552.5,8.5,17494.08,9665479.2,16098,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,46,Juárez,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,42.0,42.0,0.0,373.8,8.9,17824.89,6662943.88,16046,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,31.0,31.0,0.0,347.2,11.2,17495.62,6074479.26,16061,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,565.5,8.7,17152.27,9699608.69,16061,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,206.0,206.0,0.0,2121.8,10.3,17982.81,38155926.26,16081,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,206.0,206.0,0.0,2132.1,10.35,16959.44,36159222.02,16081,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,553.0,553.0,0.0,5972.4,10.8,18252.75,109012724.1,16112,2024
+2024,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,780.0,780.0,0.0,8268.0,10.6,17255.76,142670623.7,16112,2024
+2025,16,Michoacán,81,Coahuayana,1,Aquila,8,Aquila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,42.72,10.68,19200.0,820224.0,16008,2025
+2025,16,Michoacán,81,Coahuayana,3,Chinicuila,26,Chinicuila,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,92.0,92.0,0.0,871.24,9.47,20115.33,17525280.11,16026,2025
+2025,16,Michoacán,82,Aguililla,1,Aguililla,2,Aguililla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,48.0,45.0,0.0,621.0,13.8,20632.41,12812726.61,16002,2025
+2025,16,Michoacán,82,Aguililla,2,Coalcomán,15,Coalcomán de Vázquez Pallares,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,559.0,523.0,0.0,7086.65,13.55,18182.03,128849682.9,16015,2025
+2025,16,Michoacán,85,Apatzingán,1,Apatzingán,6,Apatzingán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1016.0,997.0,0.0,10647.96,10.68,21736.81,231452683.4,16006,2025
+2025,16,Michoacán,85,Apatzingán,2,Tepalcatepec,89,Tepalcatepec,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,21.0,19.0,0.0,207.1,10.9,23278.89,4821058.12,16089,2025
+2025,16,Michoacán,85,Apatzingán,5,Gabriel Zamora,59,Nuevo Urecho,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,313.0,298.0,0.0,3134.96,10.52,22548.69,70689241.21,16059,2025
+2025,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4355.0,4330.0,0.0,46624.4,10.77,23877.33,1113266294.0,16058,2025
+2025,16,Michoacán,86,Uruapan,1,Parangaricutiro,58,Nuevo Parangaricutiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4670.0,4662.0,0.0,49264.2,10.57,24287.57,1196507901.0,16058,2025
+2025,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3865.0,3830.0,0.0,41654.4,10.88,23406.09,974966458.6,16083,2025
+2025,16,Michoacán,86,Uruapan,1,Parangaricutiro,83,Tancítaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,21697.0,21245.0,0.0,227321.5,10.7,21856.74,4968506922.0,16083,2025
+2025,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,11879.0,11731.0,0.0,132755.68,11.32,24758.4,3286817577.0,16102,2025
+2025,16,Michoacán,86,Uruapan,1,Parangaricutiro,102,Uruapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,6428.0,6371.0,0.0,68414.7,10.74,23288.51,1593276258.0,16102,2025
+2025,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1428.0,1417.0,0.0,15637.96,11.04,20556.99,321469456.2,16087,2025
+2025,16,Michoacán,86,Uruapan,2,Ziracuaretiro,87,Taretan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1946.0,1924.0,0.0,19427.3,10.1,22358.27,434360816.3,16087,2025
+2025,16,Michoacán,86,Uruapan,2,Ziracuaretiro,90,Tingambato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4283.0,4244.0,0.0,42854.3,10.1,22295.35,955451471.8,16090,2025
+2025,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,3572.0,3400.0,0.0,41140.0,12.1,19474.76,801191626.4,16111,2025
+2025,16,Michoacán,86,Uruapan,2,Ziracuaretiro,111,Ziracuaretiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1898.0,1825.0,0.0,18358.25,10.06,21992.13,403737096.8,16111,2025
+2025,16,Michoacán,86,Uruapan,3,Paracho,21,Charapan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1823.0,1805.0,0.0,16172.8,8.96,20321.18,328650379.9,16021,2025
+2025,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,279.0,272.0,0.0,3128.0,11.5,21086.54,65958697.12,16084,2025
+2025,16,Michoacán,87,Zamora,1,Zamora,84,Tangamandapio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3151.0,3072.0,0.0,37103.0,12.08,20241.34,751014265.7,16084,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,75.0,70.0,0.0,763.0,10.9,20904.98,15950499.74,16025,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,25,Chilchota,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1280.0,1271.0,0.0,12964.2,10.2,22178.28,287523657.6,16025,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,70,Purépero,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,881.0,865.0,0.0,8823.0,10.2,21112.01,186271264.2,16070,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,65.0,65.0,0.0,708.5,10.9,19706.28,13961899.38,16085,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,85,Tangancícuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1880.0,1861.0,0.0,18969.56,10.19,21084.67,399966964.5,16085,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,22.0,20.0,0.0,218.0,10.9,21767.39,4745291.02,16094,2025
+2025,16,Michoacán,87,Zamora,2,Tangancícuaro,94,Tlazazalca,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,261.0,256.0,0.0,2611.2,10.2,19949.12,52091142.15,16094,2025
+2025,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2876.0,2862.0,0.0,37432.16,13.08,22093.11,826992786.2,16068,2025
+2025,16,Michoacán,87,Zamora,3,Reyes Los,68,Peribán,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8901.0,8889.0,0.0,116357.01,13.09,20253.2,2356601795.0,16068,2025
+2025,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1332.0,1317.0,0.0,17572.12,13.34,21079.29,370407790.8,16075,2025
+2025,16,Michoacán,87,Zamora,3,Reyes Los,75,Los Reyes,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5872.0,5760.0,0.0,74880.0,13.0,20755.11,1554142637.0,16075,2025
+2025,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,604.0,588.0,0.0,6536.64,11.12,21093.39,137879866.3,16019,2025
+2025,16,Michoacán,87,Zamora,4,Cotija,19,Cotija,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2175.0,2162.0,0.0,26160.2,12.1,22930.76,599873267.8,16019,2025
+2025,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1369.0,1361.0,0.0,16563.98,12.17,20486.38,339335910.4,16091,2025
+2025,16,Michoacán,87,Zamora,4,Cotija,91,Tingüindín,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4077.0,4048.0,0.0,48913.55,12.08,22049.48,1078518352.0,16091,2025
+2025,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,245.0,235.0,0.0,2598.52,11.06,22077.7,57369332.66,16095,2025
+2025,16,Michoacán,87,Zamora,4,Cotija,95,Tocumbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,856.0,841.0,0.0,10143.75,12.06,22833.34,231615717.4,16095,2025
+2025,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,62,Pajacuarán,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,70.02,11.67,21491.23,1504815.92,16062,2025
+2025,16,Michoacán,88,Sahuayo,1,Venustiano Carranza,76,Sahuayo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,14.0,14.0,0.0,168.0,12.0,21340.83,3585259.44,16076,2025
+2025,16,Michoacán,88,Sahuayo,2,Jiquilpan,45,Jiquilpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,158.0,147.0,0.0,1602.3,10.9,21256.29,34058953.47,16045,2025
+2025,16,Michoacán,89,La Piedad,1,Vista Hermosa,86,Tanhuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,11.5,10.0,0.0,131.0,13.1,21142.3,2769641.3,16086,2025
+2025,16,Michoacán,89,La Piedad,1,Vista Hermosa,105,Vista Hermosa,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,4.0,0.0,42.72,10.68,21746.05,928991.26,16105,2025
+2025,16,Michoacán,89,La Piedad,1,Vista Hermosa,106,Yurécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,2.0,2.0,0.0,21.36,10.68,21746.05,464495.63,16106,2025
+2025,16,Michoacán,89,La Piedad,2,Numarán,67,Penjamillo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,18.0,11.0,0.0,112.2,10.2,20027.66,2247103.46,16067,2025
+2025,16,Michoacán,89,La Piedad,3,Zacapu,16,Coeneo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,60.0,60.0,0.0,631.2,10.52,21009.65,13261291.08,16016,2025
+2025,16,Michoacán,89,La Piedad,3,Zacapu,44,Jiménez,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,594.0,565.0,0.0,5830.8,10.32,21013.11,122523241.8,16044,2025
+2025,16,Michoacán,89,La Piedad,3,Zacapu,63,Panindícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,5.0,5.0,0.0,47.35,9.47,22200.0,1051170.0,16063,2025
+2025,16,Michoacán,89,La Piedad,3,Zacapu,107,Zacapu,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,4032.0,3981.0,0.0,48209.91,12.11,21523.64,1037652747.0,16107,2025
+2025,16,Michoacán,89,La Piedad,4,Sixto Verduzco,54,Morelos,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,158.0,147.0,0.0,1519.98,10.34,21206.72,32233790.27,16054,2025
+2025,16,Michoacán,89,La Piedad,4,Sixto Verduzco,71,Puruándiro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,0.0,4.0,0.0,,,0.0,16071,2025
+2025,16,Michoacán,89,La Piedad,4,Sixto Verduzco,71,Puruándiro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2.0,0.0,0.0,0.0,,,0.0,16071,2025
+2025,16,Michoacán,90,Pátzcuaro,1,Quiroga,32,Erongarícuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,732.0,715.0,0.0,10002.85,13.99,20645.65,206515340.1,16032,2025
+2025,16,Michoacán,90,Pátzcuaro,1,Quiroga,39,Huiramba,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,258.0,238.0,0.0,2546.6,10.7,21798.18,55511245.19,16039,2025
+2025,16,Michoacán,90,Pátzcuaro,1,Quiroga,48,Lagunillas,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,47.0,43.0,0.0,460.1,10.7,21753.79,10008918.78,16048,2025
+2025,16,Michoacán,90,Pátzcuaro,1,Quiroga,66,Pátzcuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,1260.0,1197.0,0.0,12807.9,10.7,22290.73,285497440.8,16066,2025
+2025,16,Michoacán,90,Pátzcuaro,1,Quiroga,73,Quiroga,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,208.0,198.0,0.0,2118.6,10.7,22339.16,47327744.38,16073,2025
+2025,16,Michoacán,90,Pátzcuaro,1,Quiroga,100,Tzintzuntzan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,59.0,56.0,0.0,599.2,10.7,22722.15,13615112.28,16100,2025
+2025,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8302.0,8231.0,0.0,89944.1,10.93,21554.26,1938678123.0,16009,2025
+2025,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,9,Ario,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,12094.0,11943.0,0.0,121818.6,10.2,22183.37,2702347077.0,16009,2025
+2025,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,8246.0,8155.0,0.0,103568.5,12.7,21839.59,2261893577.0,16079,2025
+2025,16,Michoacán,90,Pátzcuaro,2,Villa Escalante,79,Salvador Escalante,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,8633.0,8556.0,0.0,87271.2,10.2,21465.03,1873278926.0,16079,2025
+2025,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,10333.0,10145.0,0.0,121806.8,12.01,18896.89,2301769942.0,16082,2025
+2025,16,Michoacán,90,Pátzcuaro,3,Tacámbaro,82,Tacámbaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,7380.5,7269.5,0.0,74221.6,10.21,20935.52,1553867687.0,16082,2025
+2025,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1511.0,1448.0,0.0,20569.68,14.21,22398.27,460725171.1,16097,2025
+2025,16,Michoacán,90,Pátzcuaro,4,Turicato,97,Turicato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,5219.0,5165.0,0.0,53406.1,10.34,17937.15,957953226.6,16097,2025
+2025,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1638.0,1622.0,0.0,17322.96,10.68,25142.46,435541828.9,16001,2025
+2025,16,Michoacán,91,Morelia,1,Morelia,1,Acuitzio,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,349.0,339.0,0.0,3627.3,10.7,28133.21,102047592.6,16001,2025
+2025,16,Michoacán,91,Morelia,1,Morelia,49,Madero,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1590.0,1569.0,0.0,16756.92,10.68,26231.63,439561325.4,16049,2025
+2025,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,1102.5,1066.5,0.0,11390.22,10.68,24341.07,277250142.3,16053,2025
+2025,16,Michoacán,91,Morelia,1,Morelia,53,Morelia,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,484.0,468.0,0.0,5007.6,10.7,28765.37,144045466.8,16053,2025
+2025,16,Michoacán,91,Morelia,2,Cuitzeo,18,Copándaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,4.0,0.0,43.6,10.9,18566.97,809519.9,16018,2025
+2025,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,114.0,111.0,0.0,1051.17,9.47,19860.83,20877108.68,16022,2025
+2025,16,Michoacán,91,Morelia,3,Álvaro Obregón,22,Charo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,49.5,46.0,0.0,412.16,8.96,18380.94,7575888.24,16022,2025
+2025,16,Michoacán,91,Morelia,3,Álvaro Obregón,40,Indaparapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,37.88,9.47,17687.7,670010.08,16040,2025
+2025,16,Michoacán,91,Morelia,3,Álvaro Obregón,88,Tarímbaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,4.0,4.0,0.0,37.88,9.47,17632.36,667913.8,16088,2025
+2025,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,35.0,35.0,0.0,384.65,10.99,18309.16,7042618.4,16072,2025
+2025,16,Michoacán,91,Morelia,4,Queréndaro,72,Queréndaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,41.0,41.0,0.0,423.94,10.34,18921.2,8021453.53,16072,2025
+2025,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,178.0,159.0,0.0,1747.41,10.99,19197.95,33546689.81,16110,2025
+2025,16,Michoacán,91,Morelia,4,Queréndaro,110,Zinapécuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,71.0,71.0,0.0,734.14,10.34,19185.08,14084534.64,16110,2025
+2025,16,Michoacán,91,Morelia,5,Tzitzio,101,Tzitzio,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,47.0,47.0,0.0,470.0,10.0,19185.42,9017147.4,16101,2025
+2025,16,Michoacán,92,Huetamo,3,Carácuaro,57,Nocupétaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,56.82,9.47,18161.51,1031937.0,16057,2025
+2025,16,Michoacán,92,Huetamo,4,Tuzantla,99,Tuzantla,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,17.0,17.0,0.0,263.5,15.5,19057.72,5021709.22,16099,2025
+2025,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,6.0,6.0,0.0,65.4,10.9,18601.61,1216545.3,16050,2025
+2025,16,Michoacán,93,Zitácuaro,2,Maravatío,50,Maravatío,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,3.0,3.0,0.0,30.6,10.2,17643.96,539905.18,16050,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,15.0,0.0,0.0,0.0,,,0.0,16034,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,34,Hidalgo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,54.0,52.0,0.0,465.92,8.96,18211.89,8485283.79,16034,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,80.0,80.0,0.0,757.6,9.47,17244.26,13064251.38,16041,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,41,Irimbo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,103.0,103.0,0.0,922.88,8.96,17637.09,16276917.62,16041,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,42.0,34.0,0.0,321.98,9.47,17681.79,5693182.75,16047,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,47,Jungapeo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,2.5,2.5,0.0,22.4,8.96,16789.26,376079.43,16047,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,333.0,333.0,0.0,3153.51,9.47,18131.02,57176352.89,16098,2025
+2025,16,Michoacán,93,Zitácuaro,3,Ciudad Hidalgo,98,Tuxpan,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,63.0,63.0,0.0,564.48,8.96,18599.14,10498842.55,16098,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,46,Juárez,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,40.5,40.5,0.0,445.1,10.99,20191.85,8987393.85,16046,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,32.0,32.0,0.0,351.68,10.99,19166.14,6740348.12,16061,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,61,Ocampo,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,63.0,63.0,0.0,651.42,10.34,19379.02,12623881.21,16061,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,200.0,200.0,0.0,2198.0,10.99,19553.03,42977559.94,16081,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,81,Susupuato,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,171.0,171.0,0.0,1768.14,10.34,17810.95,31492253.14,16081,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,1,Riego,200201,Tonelada,5060000,Aguacate,540.0,540.0,0.0,5934.6,10.99,18836.5,111787092.9,16112,2025
+2025,16,Michoacán,93,Zitácuaro,4,Zitácuaro,112,Zitácuaro,3,Perennes,2,Temporal,200201,Tonelada,5060000,Aguacate,777.0,777.0,0.0,8034.18,10.34,25024.92,201054711.8,16112,2025

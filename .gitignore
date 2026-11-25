@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.part
+.env
+.env.*
+credenciales.json
+dato/
+datos/
+revision_datos_aguacate/
+datos_piloto/
+resultados/
+resultados_piloto/
+modelos_descargados/
+Delimitacion_rendimiento_aguacate/resultados_territorio/
+
+# S3: planes generados y credenciales externas
+resultados_sentinel_s3/
+entradas_s3/
+.aws/
+*.pem
