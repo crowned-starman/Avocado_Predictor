@@ -1,0 +1,71 @@
+{
+  "fecha_descarga_utc": "2026-11-19T02:43:08.545221+00:00",
+  "portal_agricola": "https://nube.agricultura.gob.mx/datosAbiertos/Agricola.php",
+  "diccionario": null,
+  "archivos_agricolas": [
+    {
+      "anio": 2020,
+      "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2020",
+      "sha256": "ebf3f12a5ec4fa5a65d2f0d87158da0528280c51b6035e6bc1eb5e96cf4c4304",
+      "bytes_originales": 4635574,
+      "filas_originales": 28661,
+      "filas_filtradas": 90,
+      "encoding": "cp1252"
+    },
+    {
+      "anio": 2021,
+      "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2021",
+      "sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b",
+      "bytes_originales": 4649328,
+      "filas_originales": 28741,
+      "filas_filtradas": 93,
+      "encoding": "cp1252"
+    },
+    {
+      "anio": 2022,
+      "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2022",
+      "sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162",
+      "bytes_originales": 6032570,
+      "filas_originales": 37555,
+      "filas_filtradas": 95,
+      "encoding": "cp1252"
+    },
+    {
+      "anio": 2023,
+      "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2023",
+      "sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6",
+      "bytes_originales": 6678816,
+      "filas_originales": 38696,
+      "filas_filtradas": 97,
+      "encoding": "cp1252"
+    },
+    {
+      "anio": 2024,
+      "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2024",
+      "sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11",
+      "bytes_originales": 5959152,
+      "filas_originales": 36992,
+      "filas_filtradas": 100,
+      "encoding": "cp1252"
+    },
+    {
+      "anio": 2025,
+      "url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2025",
+      "sha256": "1f72e2b0cde3aeb1cac40c205054ce662d65c5f4655831b997bf66c626650243",
+      "bytes_originales": 5771963,
+      "filas_originales": 35902,
+      "filas_filtradas": 100,
+      "encoding": "cp1252"
+    }
+  ],
+  "inegi": {
+    "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/16",
+    "sha256": "d7ab95be42e18188a28c2ba0fb7e2e6268a720d2853b86a97bd97f2caafa76ae",
+    "crs_original": "EPSG:6365",
+    "metadatos": {
+      "Fuente_informacion_vectorial": "INEGI. Marco Geoestadístico, diciembre de 2025",
+      "Fuente_informacion_estadistica": "INEGI. Censo de Población y Vivienda, 2020"
+    }
+  },
+  "notas": "Se conserva únicamente el detalle agrícola de aguacate de Michoacán; sin etiquetas 2026."
+}

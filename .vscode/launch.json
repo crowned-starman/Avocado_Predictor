@@ -1,0 +1,80 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Territorio y etiquetas",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ejecutar.py",
+      "args": [
+        "territorio"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "2. Abrir mapa municipal",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ejecutar.py",
+      "args": [
+        "mapa"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "3. Ingesta local",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ejecutar.py",
+      "args": [
+        "ingesta",
+        "todo"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "4. Ver resultados de ingesta",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ejecutar.py",
+      "args": [
+        "ver-resultados"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "5. Planificar piloto",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ejecutar.py",
+      "args": [
+        "piloto",
+        "planificar"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "6. Ejecutar piloto conectado",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ejecutar.py",
+      "args": [
+        "piloto",
+        "todo"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
