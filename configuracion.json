@@ -1,0 +1,223 @@
+{
+  "carpeta_datos": "datos/revision_datos_aguacate",
+  "carpeta_salida": "resultados",
+  "carpeta_modelos": "modelos_descargados",
+  "dispositivo": "cpu",
+  "hilos_cpu": 2,
+  "sentinel2": {
+    "archivos": [],
+    "tamanio_parche_px": 64,
+    "fraccion_clara_minima": 0.8,
+    "clases_scl_claras": [
+      4,
+      5,
+      6
+    ],
+    "max_recuadros_a_buscar": 20,
+    "dias_hasta_consulta": 5
+  },
+  "era5_land": {
+    "archivo_netcdf": "era5_land/precipitacion_diaria_mm.nc",
+    "archivo_csv_alternativo": "era5_land/resumen_diario_aoi.csv",
+    "modo_series": "regional",
+    "pasos_a_predecir": 1
+  },
+  "territorio": {
+    "cvegeo_seleccionados": [
+      "16001",
+      "16009",
+      "16016",
+      "16019",
+      "16021",
+      "16022",
+      "16025",
+      "16032",
+      "16039",
+      "16048",
+      "16049",
+      "16053",
+      "16057",
+      "16058",
+      "16059",
+      "16066",
+      "16068",
+      "16073",
+      "16075",
+      "16079",
+      "16082",
+      "16083",
+      "16085",
+      "16087",
+      "16088",
+      "16090",
+      "16091",
+      "16095",
+      "16100",
+      "16102",
+      "16107",
+      "16111"
+    ],
+    "meses_emision_propuestos": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "fraccion_minima_aoi": 0.85,
+    "cortes_preseleccionados": [
+      27,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      88,
+      89,
+      90,
+      91,
+      95,
+      96,
+      97,
+      98,
+      99,
+      105,
+      106,
+      107,
+      108,
+      112,
+      113,
+      114,
+      115,
+      116,
+      122,
+      125,
+      126,
+      128
+    ],
+    "origen_cortes_preseleccionados": "Números de los 49 recuadros rojos del mapa aportado por el usuario: image(20261124-043256).png. Las coordenadas se leen exclusivamente del CSV original."
+  },
+  "piloto": {
+    "municipios_piloto": [
+      "16102",
+      "16083",
+      "16009"
+    ],
+    "anios_contexto": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "anio_consulta": 2025,
+    "mes": 11,
+    "primer_dia_contexto": 1,
+    "ultimo_dia_contexto": 25,
+    "dias_pronostico": 5,
+    "observaciones_sentinel_por_caso": 3,
+    "max_descargas_sentinel_por_caso": 7,
+    "fraccion_clara_minima": 0.8,
+    "tamanio_parche_px": 64,
+    "clases_scl_claras": [
+      4,
+      5,
+      6
+    ],
+    "tabicl_estimadores": 2
+  },
+  "revision": {
+    "EJECUTAR_SENTINEL": true,
+    "EJECUTAR_ERA5": true,
+    "EJECUTAR_AGRICOLA": true,
+    "AOI_GEOJSON": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -102.2362,
+            19.288836
+          ],
+          [
+            -102.2362,
+            19.619134
+          ],
+          [
+            -101.671895,
+            19.619134
+          ],
+          [
+            -101.671895,
+            19.288836
+          ],
+          [
+            -102.2362,
+            19.288836
+          ]
+        ]
+      ]
+    },
+    "TIME_INTERVAL": [
+      "2026-03-01",
+      "2026-03-31"
+    ],
+    "FECHA_S2": null,
+    "MAX_CLOUD": 0.3,
+    "RESOLUTION": 10,
+    "MAX_PX": 1500,
+    "MAX_VISTA_PX": 1600,
+    "MAX_RECUADROS_S2": 400,
+    "SCL_VALID_CLASSES": [
+      4,
+      5,
+      6
+    ],
+    "ACQUISITION_MARGIN_MIN": 10,
+    "ERA5_FECHA_INICIAL": "2026-03-01",
+    "ERA5_N_DIAS": 3,
+    "ANIO_INICIAL": 2023,
+    "ANIO_FINAL": 2025,
+    "ESTADOS_AGRICOLAS": [
+      16
+    ],
+    "ARCHIVOS_AGRICOLAS_LOCALES": {},
+    "TOTALES_ANUARIO_T": {},
+    "CREAR_ZIP_RESULTADOS": false
+  },
+  "sentinel_s3": {
+    "bucket": "CAMBIAR_POR_TU_BUCKET",
+    "region": "us-west-2",
+    "prefijo": "aguacate/sentinel2",
+    "fecha_inicial": "2020-01-01",
+    "fecha_final": "2025-12-31",
+    "archivo_malla": "",
+    "archivo_metadatos_malla": "",
+    "carpeta_trabajo": "resultados_sentinel_s3",
+    "max_pixeles_por_banda": 16000000,
+    "clases_scl_claras": [
+      4,
+      5,
+      6
+    ]
+  }
+}
