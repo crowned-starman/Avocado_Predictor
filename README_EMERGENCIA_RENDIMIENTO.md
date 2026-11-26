@@ -60,11 +60,15 @@ La semilla de los modelos de árboles está fijada en 42. Los cortes respetan el
 
 ## Clima y Sentinel-2
 
-El flujo ambiental se prepara con los módulos del repositorio. ERA5-Land necesita una cuenta/licencia de Copernicus CDS y su token configurado en el entorno local. No compartas el token. Ejecuta la descarga de los años disponibles:
+Si Copernicus CDS no permite crear una cuenta, puedes obtener precipitación diaria desde la API Historical Weather de Open-Meteo, sin configurar credenciales. El descargador usa la reanálisis ERA5 y guarda los archivos con el formato que espera el integrador:
 
 ```bash
-python lluvia_historica.py todo
+python lluvia_open_meteo.py --anios 2020 2021 2022 2023 2024 2025
 ```
+
+Por defecto descarga los 32 municipios seleccionados en `configuracion.json` y guarda los CSV en `datos/lluvia_open_meteo/derivados/<año>/lluvia_diaria_municipio.csv`. Si deseas recuperar un solo año, pasa solo ese año, por ejemplo `--anios 2025`. La descarga usa un punto representativo dentro de cada municipio; los valores no son promedios de toda el área municipal ni de huertas.
+
+Open-Meteo publica precipitación para ERA5, cuya rejilla es aproximadamente 0.25° (~25 km). La resolución es más gruesa que ERA5-Land (~11 km), por lo que esta alternativa da contexto climático regional y puede suavizar diferencias locales. El script no pide token CDS ni escribe credenciales.
 
 Para Sentinel-2 se leen COG públicos de Earth Search por HTTP Range; no se necesita transferirlos a S3. El extractor usa los 49 recuadros georreferenciados seleccionados para el proyecto, aplica el filtro de calidad SCL, calcula índices con reflectancia L2A y deja una caché SQLite para reanudar. Ejecuta cada año 2020–2025:
 
@@ -74,14 +78,13 @@ python extraer_features_sentinel.py --anio 2025 --malla datos/sentinel2/cortes_g
 
 Repite el comando para cada año disponible. `--malla` debe ser el CSV georreferenciado de la cuadrícula original, con los mismos cortes del mapa. Si la malla ya tiene una columna `crs`, se puede omitir `--metadatos-malla`. El extractor produce `datos/sentinel/features_sentinel_municipio_<año>.csv`.
 
-Une la lluvia diaria con los resúmenes satelitales:
+Une la lluvia diaria con los resúmenes satelitales y después entrena/evalúa el modelo con las variables ambientales:
 
 ```bash
-python preparar_features_ambientales.py --lluvia-root datos/lluvia_era5_land --sentinel-anual datos/sentinel --salida datos/features_ambientales.csv
+python preparar_features_ambientales.py --lluvia-root datos/lluvia_open_meteo --sentinel-anual datos/sentinel --salida datos/features_ambientales.csv
 python pipeline_rendimiento_aguacate.py --features-ambientales datos/features_ambientales.csv
 ```
 
-El CSV integrado contiene, por municipio-año: precipitación anual, días lluviosos, racha seca máxima, cobertura de lluvia, mediana de NDVI/EVI/SAVI/NDWI y escenas válidas. El modelo crea rezagos y promedios de hasta tres años; al predecir 2026 solo usa mediciones hasta 2025. Si faltan filas ambientales para los municipios, el pipeline se detiene y no produce un resultado parcial.
+El CSV integrado contiene, por municipio-año: precipitación total anual, días lluviosos, racha seca máxima, cobertura de lluvia, mediana de NDVI/EVI/SAVI/NDWI y escenas válidas. El modelo crea rezagos y promedios de hasta tres años; al predecir 2026 solo usa mediciones hasta 2025. Si faltan filas ambientales para los municipios requeridos, el pipeline se detiene y no produce un resultado parcial.
 
-La agregación satelital usa recuadros municipales como proxy de vegetación general, no polígonos de huertas de aguacate. Las predicciones previas siguen siendo SIAP solamente; el nuevo modelo ambiental se entrenará cuando se generen y revisen ambos archivos de datos.
-
+La agregación satelital usa recuadros municipales como proxy de vegetación general, no polígonos de huertas de aguacate. Los resultados ya incluidos en el repositorio fueron entrenados solo con datos SIAP. La versión con clima y Sentinel todavía necesita que se descarguen, integren y validen las series locales antes de poder entrenarse y evaluarse.
