@@ -59,7 +59,11 @@ def cargar_lluvia(raiz: Path) -> pd.DataFrame:
 
 
 def cargar_sentinel(ruta: Path) -> pd.DataFrame:
-    s2 = pd.read_csv(ruta, encoding="utf-8-sig", dtype={"CVEGEO": str})
+    archivos = sorted(ruta.glob("features_sentinel_municipio_*.csv")) if ruta.is_dir() else [ruta]
+    if not archivos:
+        raise FileNotFoundError(f"No encontré features_sentinel_municipio_*.csv en {ruta}")
+    s2 = pd.concat([pd.read_csv(p, encoding="utf-8-sig", dtype={"CVEGEO": str}) for p in archivos],
+                   ignore_index=True)
     faltan = set(COLUMNAS_SENTINEL) - set(s2.columns)
     if faltan:
         raise ValueError(f"CSV Sentinel anual sin columnas requeridas: {sorted(faltan)}")
@@ -82,7 +86,7 @@ def main() -> None:
     parser.add_argument("--lluvia-root", required=True, type=Path,
                         help="Carpeta generada por lluvia_historica.py (busca derivados/*/lluvia_diaria_municipio.csv).")
     parser.add_argument("--sentinel-anual", required=True, type=Path,
-                        help="Resumen Sentinel-2: una fila por municipio-año con índices medianos.")
+                        help="CSV resumen o carpeta con features_sentinel_municipio_*.csv.")
     parser.add_argument("--salida", type=Path, default=Path("datos/features_ambientales.csv"))
     args = parser.parse_args()
     lluvia = cargar_lluvia(args.lluvia_root)
