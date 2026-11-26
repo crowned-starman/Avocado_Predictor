@@ -98,7 +98,9 @@ def descargar(anios, config: Path, salida: Path, lote: int):
                         "precipitacion_diaria_mm": mm if pd.notna(mm) else None,
                         "fraccion_area_con_dato": 1.0 if pd.notna(mm) else 0.0,
                     })
-        archivo = salida / f"lluvia_diaria_municipio_{anio}.csv"
+        carpeta_anio = salida / "derivados" / str(anio)
+        carpeta_anio.mkdir(parents=True, exist_ok=True)
+        archivo = carpeta_anio / "lluvia_diaria_municipio.csv"
         pd.DataFrame(filas).to_csv(archivo, index=False, encoding="utf-8-sig", float_format="%.8g")
         manifest = {
             "fuente": "Open-Meteo Historical Weather API",
@@ -113,7 +115,7 @@ def descargar(anios, config: Path, salida: Path, lote: int):
             "filas": len(filas),
             "consulta_endpoint": sorted(set(urls)),
         }
-        (salida / f"manifest_{anio}.json").write_text(
+        (carpeta_anio / "manifest.json").write_text(
             json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
         )
         print(f"Guardado {archivo} | {len(filas)} filas | {len(puntos)} municipios")
