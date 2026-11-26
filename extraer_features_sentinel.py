@@ -29,9 +29,17 @@ CLASES_CLARAS = (4, 5, 6)
 
 
 def crear_config_temporal(origen: Path, temporal: Path, malla: Path, metadatos: Path | None,
-                          carpeta_trabajo: str, malla_municipal: bool = False) -> None:
+                          carpeta_trabajo: str, malla_municipal: bool = False,
+                          piloto: bool = False) -> None:
     cfg = json.loads(origen.read_text(encoding="utf-8"))
     cfg.setdefault("sentinel_s3", {})
+    if piloto:
+        claves_piloto = sorted({str(c).zfill(5) for c in cfg.get("piloto", {}).get("municipios_piloto", [])})
+        claves_configuradas = {str(c).zfill(5) for c in cfg.get("territorio", {}).get("cvegeo_seleccionados", [])}
+        if not claves_piloto or not set(claves_piloto) <= claves_configuradas:
+            raise ValueError("piloto.municipios_piloto debe ser un subconjunto no vacío de los municipios configurados.")
+        cfg["territorio"]["cvegeo_seleccionados"] = claves_piloto
+        malla_municipal = True
     if malla_municipal:
         tabla_malla = pd.read_csv(malla, encoding="utf-8-sig")
         if "tipo_malla" not in tabla_malla or set(tabla_malla["tipo_malla"].dropna()) != {"municipal_regular"}:
@@ -148,7 +156,9 @@ def main():
     parser.add_argument("--anio", type=int, required=True, choices=range(2020, 2026))
     parser.add_argument("--malla", type=Path, required=True, help="CSV de la cuadrícula georreferenciada.")
     parser.add_argument("--malla-municipal", action="store_true",
-                        help="Interpreta la malla como la cuadrícula de 10 km generada desde los polígonos municipales; ignora los 49 cortes históricos.")
+                        help="Interpreta la malla como la cuadrícula generada desde los polígonos municipales; ignora los 49 cortes históricos.")
+    parser.add_argument("--piloto", action="store_true",
+                        help="Procesa solo los municipios de piloto.municipios_piloto y guarda la salida en datos/sentinel_piloto/.")
     parser.add_argument("--metadatos-malla", type=Path, default=None, help="JSON con CRS si el CSV no trae la columna crs.")
     parser.add_argument("--salida", type=Path, default=None)
     args = parser.parse_args()
@@ -156,16 +166,21 @@ def main():
     if not args.malla.is_file():
         parser.error(f"No encuentro el CSV de la malla: {args.malla}")
     trabajo_cfg = root / f".config_sentinel_features_{args.anio}.json"
+    modo_malla_municipal = args.malla_municipal or args.piloto
+    nombre_trabajo = ("resultados_sentinel_piloto_features" if args.piloto else "resultados_sentinel_features")
     crear_config_temporal(args.configuracion.resolve(), trabajo_cfg, args.malla, args.metadatos_malla,
-                          f"resultados_sentinel_features_{args.anio}", args.malla_municipal)
+                          f"{nombre_trabajo}_{args.anio}", modo_malla_municipal, args.piloto)
     try:
         cfg = sentinel_s3.configuracion(trabajo_cfg, anio=args.anio)
-        if args.malla_municipal:
+        if modo_malla_municipal:
             # Reafirmar el modo municipal tras normalizar la configuración y antes
             # de crear la selección; nunca reutilizar los IDs de los 49 recuadros viejos.
             cfg["territorio"]["cortes_preseleccionados"] = None
             cfg["territorio"]["fraccion_minima_aoi"] = 1e-12
-            print("Malla municipal: usar todas las celdas que intersectan los municipios; se ignoran los 49 cortes históricos.")
+            modo = "piloto" if args.piloto else "municipal"
+            print(f"Malla {modo}: usar todas las celdas que intersectan el AOI; se ignoran los 49 cortes históricos.")
+            if args.piloto:
+                print(f"Municipios del piloto: {', '.join(sorted(cfg['territorio']['cvegeo_seleccionados']))}")
         sentinel_s3.preparar(cfg)
         plan = sentinel_s3.planificar(cfg, usar_plan_compartido=False)
         claves = {str(c).zfill(5) for c in cfg["territorio"]["cvegeo_seleccionados"]}
@@ -175,7 +190,8 @@ def main():
         cortes = {int(x["corte"]): x for x in plan["seleccion"]["recuadros"]}
         por_bloque = plan.get("seleccion_temporal", {}).get("modo") == "mejor_por_bloque"
         cfg["sentinel_s3"]["prefijo"] = cfg["sentinel_s3"].get("prefijo", "aguacate/sentinel2")
-        salida = args.salida or root / "datos" / "sentinel" / f"features_sentinel_municipio_{args.anio}.csv"
+        carpeta_salida = "sentinel_piloto" if args.piloto else "sentinel"
+        salida = args.salida or root / "datos" / carpeta_salida / f"features_sentinel_municipio_{args.anio}.csv"
         salida.parent.mkdir(parents=True, exist_ok=True)
         db = inicializar_db(salida.with_suffix(".sqlite"))
         max_pix = int(cfg["sentinel_s3"].get("max_pixeles_por_banda", 16_000_000))
