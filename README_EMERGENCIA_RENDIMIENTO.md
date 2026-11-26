@@ -78,7 +78,15 @@ python generar_malla_sentinel.py
 
 Esto crea `datos/sentinel2/malla_municipal_10km.csv` y sus metadatos. La malla sirve para localizar escenas y crear ventanas de lectura; el extractor aplica los índices dentro de los polígonos exactos de los 32 municipios. No se reutilizan los 49 números de recuadro de la selección anterior, porque sus coordenadas originales no están disponibles. Los índices representan vegetación general municipal, no huertas individuales.
 
-Ejecuta la extracción para cada año de desarrollo:
+Primero procesa la muestra piloto: el año 2025 y los tres municipios enumerados en `piloto.municipios_piloto` dentro de `configuracion.json`:
+
+```powershell
+python extraer_features_sentinel.py --anio 2025 --malla datos/sentinel2/malla_municipal_10km.csv --piloto
+```
+
+La salida de la muestra queda aislada en `datos/sentinel_piloto/`. Sirve para revisar que se consulten escenas y se generen NDVI, EVI, SAVI y NDWI; no es suficiente para entrenar ni evaluar el modelo temporal.
+
+Cuando la muestra termine correctamente, para el conjunto de desarrollo completo ejecuta todos los años 2020–2025 sin `--piloto`:
 
 ```powershell
 for ($anio = 2020; $anio -le 2025; $anio++) {
@@ -87,7 +95,7 @@ for ($anio = 2020; $anio -le 2025; $anio++) {
 }
 ```
 
-El extractor lee COG públicos de Earth Search por HTTP Range, aplica el filtro SCL y calcula NDVI, EVI, SAVI y NDWI con reflectancia L2A. Deja una caché SQLite para reanudar cada año; repite el mismo comando si una descarga se interrumpe.
+El extractor lee COG públicos de Earth Search por HTTP Range, aplica el filtro SCL y calcula los índices con reflectancia L2A. Conserva catálogos y cachés SQLite locales para reanudar. No guarda en un bucket la estimación de imágenes nativas sin comprimir; esta es una cota de volumen de ventanas raster, no la ocupación de disco de la extracción.
 
 Integra la lluvia y los resúmenes satelitales y luego ejecuta el pipeline:
 
