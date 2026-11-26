@@ -162,7 +162,10 @@ def main():
         cfg = sentinel_s3.configuracion(trabajo_cfg, anio=args.anio)
         sentinel_s3.preparar(cfg)
         plan = sentinel_s3.planificar(cfg, usar_plan_compartido=False)
-        municipios = cargar_municipios(root, cfg["territorio"]["cvegeo_seleccionados"])
+        claves = {str(c).zfill(5) for c in cfg["territorio"]["cvegeo_seleccionados"]}
+        municipios = [m for m in cargar_municipios(root, claves) if str(m[0]).zfill(5) in claves]
+        if {str(m[0]).zfill(5) for m in municipios} != claves:
+            raise ValueError("No se pudieron cargar todos los polígonos municipales configurados.")
         cortes = {int(x["corte"]): x for x in plan["seleccion"]["recuadros"]}
         por_bloque = plan.get("seleccion_temporal", {}).get("modo") == "mejor_por_bloque"
         cfg["sentinel_s3"]["prefijo"] = cfg["sentinel_s3"].get("prefijo", "aguacate/sentinel2")
