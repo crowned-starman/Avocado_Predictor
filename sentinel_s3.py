@@ -159,9 +159,11 @@ def dibujar_filtro(municipios, claves, tabla, geometria, destino, umbral):
             ax.text(p.x, p.y, str(f.corte), ha="center", fontsize=6)
     ax.autoscale_view()
     ax.set_aspect(1 / np.cos(np.deg2rad(19.2)))
+    criterio = (f"al menos {umbral:.0%} de área municipal seleccionada"
+                if umbral >= 0.005 else "con intersección municipal positiva")
     ax.set(xlabel="Longitud", ylabel="Latitud",
-           title=f"Michoacán: recuadros con al menos {umbral:.0%} de área municipal seleccionada\n"
-                 f"{int(tabla.seleccionado_por_territorio.sum())} conservados de {len(tabla)}; no es una máscara de huertas")
+           title=f"Michoacán: celdas {criterio}\n"
+                 f"{int(tabla.seleccionado_por_territorio.sum())} conservadas de {len(tabla)}; la extracción se enmascara a los municipios")
     ax.legend(handles=[Patch(facecolor="#84a95a", label="Municipios seleccionados"),
                        Patch(facecolor="none", edgecolor="#d33d2d", label="Recuadros conservados"),
                        Patch(facecolor="none", edgecolor="#aaaaaa", label="Recuadros descartados")], loc="lower left")
@@ -205,7 +207,8 @@ def preparar(cfg):
                               "fraccion_municipio_en_recuadros_aceptados": gm.intersection(huella).area / gm.area})
     import pandas as pd
     pd.DataFrame(cobertura).to_csv(carpeta / "cobertura_municipal_tras_filtro.csv", index=False, encoding="utf-8-sig")
-    print(f"Conservados {resumen['seleccionadas']}/{resumen['posiciones']} al {umbral:.0%}. "
+    criterio = f"{umbral:.0%}" if umbral >= 0.005 else "intersección positiva"
+    print(f"Conservadas {resumen['seleccionadas']}/{resumen['posiciones']} celdas; criterio: {criterio}. "
           f"Comparación 80/85/90 %: {resumen['comparacion_umbrales']}")
     print("Mapa:", carpeta / "mapa_recuadros_filtrados.png")
     return plan
