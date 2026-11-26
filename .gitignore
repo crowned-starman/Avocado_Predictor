@@ -19,3 +19,7 @@ resultados_sentinel_s3/
 entradas_s3/
 .aws/
 *.pem
+
+# Resultados y cachés locales del extractor Sentinel ambiental
+resultados_sentinel_features_*/
+.config_sentinel_features_*.json
