@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import time
 from getpass import getpass
 from pathlib import Path
 
@@ -21,12 +22,21 @@ def guardar_json(ruta, objeto, *, compacto=False):
     ruta = Path(ruta)
     ruta.parent.mkdir(parents=True, exist_ok=True)
     opciones = {"separators": (",", ":")} if compacto else {"indent": 2}
-    temporal = ruta.with_suffix(ruta.suffix + ".part")
+    # Un temporal único evita colisiones entre procesos; reintentar cubre bloqueos
+    # breves de antivirus/indexadores que son comunes al reemplazar archivos en Windows.
+    temporal = ruta.with_name(f"{ruta.name}.{os.getpid()}.part")
     temporal.write_text(
         json.dumps(objeto, ensure_ascii=False, allow_nan=False, **opciones),
         encoding="utf-8",
     )
-    temporal.replace(ruta)
+    for intento in range(6):
+        try:
+            temporal.replace(ruta)
+            return
+        except PermissionError:
+            if intento == 5:
+                raise
+            time.sleep(0.2 * (2 ** intento))
 
 
 def firma_objeto(valor, *, ensure_ascii=False):
