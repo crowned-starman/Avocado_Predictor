@@ -160,6 +160,12 @@ def main():
                           f"resultados_sentinel_features_{args.anio}", args.malla_municipal)
     try:
         cfg = sentinel_s3.configuracion(trabajo_cfg, anio=args.anio)
+        if args.malla_municipal:
+            # Reafirmar el modo municipal tras normalizar la configuración y antes
+            # de crear la selección; nunca reutilizar los IDs de los 49 recuadros viejos.
+            cfg["territorio"]["cortes_preseleccionados"] = None
+            cfg["territorio"]["fraccion_minima_aoi"] = 1e-12
+            print("Malla municipal: usar todas las celdas que intersectan los municipios; se ignoran los 49 cortes históricos.")
         sentinel_s3.preparar(cfg)
         plan = sentinel_s3.planificar(cfg, usar_plan_compartido=False)
         claves = {str(c).zfill(5) for c in cfg["territorio"]["cvegeo_seleccionados"]}
