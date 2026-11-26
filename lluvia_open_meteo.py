@@ -97,6 +97,8 @@ def descargar(anios, config: Path, salida: Path, lote: int):
             grupo = puntos[i:i + lote]
             respuestas, url = pedir_lote(grupo, inicio, fin)
             urls.append(url.split("?")[0])
+            if i + lote < len(puntos):
+                time.sleep(2)  # espaciar peticiones para reducir respuestas 429
             for punto, respuesta in zip(grupo, respuestas):
                 daily = respuesta.get("daily") or {}
                 fechas = daily.get("time") or []
