@@ -154,7 +154,7 @@ def main():
     args = parser.parse_args()
     root = args.configuracion.resolve().parent
     if not args.malla.is_file():
-        parser.error(f"No encuentro la malla original: {args.malla}")
+        parser.error(f"No encuentro el CSV de la malla: {args.malla}")
     trabajo_cfg = root / f".config_sentinel_features_{args.anio}.json"
     crear_config_temporal(args.configuracion.resolve(), trabajo_cfg, args.malla, args.metadatos_malla,
                           f"resultados_sentinel_features_{args.anio}", args.malla_municipal)
