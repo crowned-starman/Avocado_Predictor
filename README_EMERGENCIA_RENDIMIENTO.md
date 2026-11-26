@@ -58,3 +58,17 @@ Estos valores son una evaluación retrospectiva pequeña con solo tres años de 
 
 La semilla de los modelos de árboles está fijada en 42. Los cortes respetan el orden temporal: para probar un año solo se entrena con muestras cuyo año objetivo es anterior. El archivo de salida conserva tanto los modelos entrenados como las tablas y métricas que permiten revisar la predicción.
 
+## Incorporación ambiental (en preparación de datos)
+
+El entrenador admite `--features-ambientales datos/features_ambientales.csv`. Cada fila debe resumir un municipio-año e incluir estas columnas:
+
+`CVEGEO, Anio, precipitacion_total_anual_mm, dias_lluviosos_gt1mm, ndvi_mediana, evi_mediana, savi_mediana, ndwi_mediana, sentinel_escenas_validas`.
+
+El pipeline crea las variables ambientales con rezago y usa solo años anteriores al año objetivo. Si faltan valores o cobertura para un municipio, se detiene en lugar de emitir un pronóstico ambiental parcial.
+
+El repositorio todavía no contiene las salidas ERA5-Land ni las estadísticas Sentinel-2. El script `lluvia_historica.py` produce CSV diarios municipales una vez descargado ERA5-Land; `preparar_features_ambientales.py` resume esa lluvia y la combina con un CSV de índices Sentinel anual:
+
+`python preparar_features_ambientales.py --lluvia-root datos/lluvia_era5_land --sentinel-anual datos/sentinel/features_sentinel_anual.csv`
+
+El código Sentinel existente descarga bandas crudas al bucket configurado, pero todavía no calcula la tabla municipal de índices requerida. La selección actual usa recuadros municipales como proxy de vegetación general, no límites de huertas. Por ello, el modelo anterior y sus predicciones 2026 siguen siendo SIAP solamente; no se reentrenan con fuentes ambientales hasta generar y validar ambas series reales.
+
