@@ -26,10 +26,20 @@ def cargar_puntos(config_path: Path):
     cfg = json.loads(config_path.read_text(encoding="utf-8"))
     claves = [str(c).zfill(5) for c in cfg["territorio"]["cvegeo_seleccionados"]]
     municipios = cargar_municipios(config_path.parent, claves)
+    seleccion = set(claves)
+    encontrados = {str(clave).zfill(5) for clave, _, _ in municipios}
+    faltantes = seleccion - encontrados
+    if faltantes:
+        raise ValueError(f"Municipios ausentes en el catálogo INEGI: {sorted(faltantes)}")
     puntos = []
     for clave, nombre, geom in municipios:
+        clave = str(clave).zfill(5)
+        if clave not in seleccion:
+            continue
         p = geom.representative_point()
         puntos.append({"CVEGEO": clave, "municipio": nombre, "latitude": p.y, "longitude": p.x})
+    if len(puntos) != len(seleccion):
+        raise ValueError(f"Se esperaban {len(seleccion)} municipios y se prepararon {len(puntos)}.")
     return puntos
 
 
@@ -44,7 +54,7 @@ def pedir_lote(puntos, inicio: str, fin: str):
         "models": MODELO,
     }
     ultimo_error = None
-    for intento in range(5):
+    for intento in range(6):
         try:
             r = requests.get(API, params=params, timeout=(20, 180))
             if r.status_code == 429 or r.status_code >= 500:
@@ -57,10 +67,21 @@ def pedir_lote(puntos, inicio: str, fin: str):
             return respuestas, r.url
         except (requests.RequestException, ValueError) as exc:
             ultimo_error = exc
-            if intento == 4:
+            if intento == 5:
                 break
-            time.sleep(min(2 ** intento, 20))
-    raise RuntimeError(f"Falló la consulta a Open-Meteo tras 5 intentos: {ultimo_error}") from ultimo_error
+            respuesta = getattr(exc, "response", None)
+            if respuesta is not None and respuesta.status_code == 429:
+                # Open-Meteo puede limitar ráfagas; atender Retry-After si existe.
+                try:
+                    espera = float(respuesta.headers.get("Retry-After", 60))
+                except (TypeError, ValueError):
+                    espera = 60
+                espera = max(espera, min(30 * (2 ** intento), 300))
+                print(f"Open-Meteo respondió 429; reintento en {espera:.0f} segundos.")
+            else:
+                espera = min(2 ** intento, 30)
+            time.sleep(espera)
+    raise RuntimeError(f"Falló la consulta a Open-Meteo tras 6 intentos: {ultimo_error}") from ultimo_error
 
 
 def descargar(anios, config: Path, salida: Path, lote: int):
