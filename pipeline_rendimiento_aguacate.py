@@ -8,11 +8,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import platform
 from pathlib import Path
 
 import joblib
 import numpy as np
 import pandas as pd
+import sklearn
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import ExtraTreesRegressor, HistGradientBoostingRegressor, RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
@@ -191,6 +193,8 @@ def entrenar_y_evaluar(panel: pd.DataFrame, muestras: pd.DataFrame, salida: Path
     informe = {
         "objetivo": "Rendimiento de aguacate en toneladas por hectárea cosechada",
         "fuente": "SIAP, detalle agrícola municipal 2020-2025 incluido en el repositorio",
+        "entorno_entrenamiento": {"python": platform.python_version(), "scikit_learn": sklearn.__version__,
+                                  "pandas": pd.__version__, "numpy": np.__version__, "joblib": joblib.__version__},
         "territorio_municipios": int(panel.CVEGEO.nunique()),
         "registros_municipio_anio": int(len(panel)),
         "periodo_observado": [int(panel.Anio.min()), int(panel.Anio.max())],
