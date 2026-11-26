@@ -60,31 +60,42 @@ La semilla de los modelos de árboles está fijada en 42. Los cortes respetan el
 
 ## Clima y Sentinel-2
 
-Si Copernicus CDS no permite crear una cuenta, puedes obtener precipitación diaria desde la API Historical Weather de Open-Meteo, sin configurar credenciales. El descargador usa la reanálisis ERA5 y guarda los archivos con el formato que espera el integrador:
+La descarga de precipitación diaria no requiere una cuenta CDS. Obtén los datos ERA5 desde Open-Meteo:
 
-```bash
+```powershell
 python lluvia_open_meteo.py --anios 2020 2021 2022 2023 2024 2025
 ```
 
-Por defecto descarga los 32 municipios seleccionados en `configuracion.json` y guarda los CSV en `datos/lluvia_open_meteo/derivados/<año>/lluvia_diaria_municipio.csv`. Si deseas recuperar un solo año, pasa solo ese año, por ejemplo `--anios 2025`. La descarga usa un punto representativo dentro de cada municipio; los valores no son promedios de toda el área municipal ni de huertas.
+El descargador usa un punto representativo por cada uno de los 32 municipios seleccionados. ERA5 tiene una resolución aproximada de 25 km, así que la lluvia es un contexto regional, no un promedio municipal ni de huertas.
 
-Open-Meteo publica precipitación para ERA5, cuya rejilla es aproximadamente 0.25° (~25 km). La resolución es más gruesa que ERA5-Land (~11 km), por lo que esta alternativa da contexto climático regional y puede suavizar diferencias locales. El script no pide token CDS ni escribe credenciales.
+### Generar la malla Sentinel-2
 
-Para Sentinel-2 se leen COG públicos de Earth Search por HTTP Range; no se necesita transferirlos a S3. El extractor usa los 49 recuadros georreferenciados seleccionados para el proyecto, aplica el filtro de calidad SCL, calcula índices con reflectancia L2A y deja una caché SQLite para reanudar. Ejecuta cada año 2020–2025:
+El CSV de la cuadrícula original no está incluido. Para no depender de ese archivo, genera una malla regular nueva de 10 × 10 km usando el CRS de área del proyecto y los polígonos municipales INEGI:
 
-```bash
-python extraer_features_sentinel.py --anio 2025 --malla datos/sentinel2/cortes_georreferenciados.csv --metadatos-malla datos/sentinel2/metadatos.json
+```powershell
+python generar_malla_sentinel.py
 ```
 
-Repite el comando para cada año disponible. `--malla` debe ser el CSV georreferenciado de la cuadrícula original, con los mismos cortes del mapa. Si la malla ya tiene una columna `crs`, se puede omitir `--metadatos-malla`. El extractor produce `datos/sentinel/features_sentinel_municipio_<año>.csv`.
+Esto crea `datos/sentinel2/malla_municipal_10km.csv` y sus metadatos. La malla sirve para localizar escenas y crear ventanas de lectura; el extractor aplica los índices dentro de los polígonos exactos de los 32 municipios. No se reutilizan los 49 números de recuadro de la selección anterior, porque sus coordenadas originales no están disponibles. Los índices representan vegetación general municipal, no huertas individuales.
 
-Une la lluvia diaria con los resúmenes satelitales y después entrena/evalúa el modelo con las variables ambientales:
+Ejecuta la extracción para cada año de desarrollo:
 
-```bash
+```powershell
+for ($anio = 2020; $anio -le 2025; $anio++) {
+    python extraer_features_sentinel.py --anio $anio --malla datos/sentinel2/malla_municipal_10km.csv --malla-municipal
+    if ($LASTEXITCODE -ne 0) { break }
+}
+```
+
+El extractor lee COG públicos de Earth Search por HTTP Range, aplica el filtro SCL y calcula NDVI, EVI, SAVI y NDWI con reflectancia L2A. Deja una caché SQLite para reanudar cada año; repite el mismo comando si una descarga se interrumpe.
+
+Integra la lluvia y los resúmenes satelitales y luego ejecuta el pipeline:
+
+```powershell
 python preparar_features_ambientales.py --lluvia-root datos/lluvia_open_meteo --sentinel-anual datos/sentinel --salida datos/features_ambientales.csv
 python pipeline_rendimiento_aguacate.py --features-ambientales datos/features_ambientales.csv
 ```
 
 El CSV integrado contiene, por municipio-año: precipitación total anual, días lluviosos, racha seca máxima, cobertura de lluvia, mediana de NDVI/EVI/SAVI/NDWI y escenas válidas. El modelo crea rezagos y promedios de hasta tres años; al predecir 2026 solo usa mediciones hasta 2025. Si faltan filas ambientales para los municipios requeridos, el pipeline se detiene y no produce un resultado parcial.
 
-La agregación satelital usa recuadros municipales como proxy de vegetación general, no polígonos de huertas de aguacate. Los resultados ya incluidos en el repositorio fueron entrenados solo con datos SIAP. La versión con clima y Sentinel todavía necesita que se descarguen, integren y validen las series locales antes de poder entrenarse y evaluarse.
+Las predicciones incluidas en el repositorio se entrenaron solo con SIAP. El modelo con lluvia y Sentinel-2 se entrenará después de descargar, integrar y revisar ambas fuentes en tu equipo.
