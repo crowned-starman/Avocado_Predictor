@@ -29,9 +29,19 @@ CLASES_CLARAS = (4, 5, 6)
 
 
 def crear_config_temporal(origen: Path, temporal: Path, malla: Path, metadatos: Path | None,
-                          carpeta_trabajo: str) -> None:
+                          carpeta_trabajo: str, malla_municipal: bool = False) -> None:
     cfg = json.loads(origen.read_text(encoding="utf-8"))
     cfg.setdefault("sentinel_s3", {})
+    if malla_municipal:
+        tabla_malla = pd.read_csv(malla, encoding="utf-8-sig")
+        if "tipo_malla" not in tabla_malla or set(tabla_malla["tipo_malla"].dropna()) != {"municipal_regular"}:
+            raise ValueError("Con --malla-municipal usa el CSV creado por generar_malla_sentinel.py.")
+        cfg.setdefault("territorio", {})
+        # La cuadrícula nueva sustituye la selección histórica de 49 cortes.
+        # Cada ventana solo incluye celdas que intersectan el AOI; los índices
+        # se enmascaran después con los polígonos municipales exactos.
+        cfg["territorio"]["cortes_preseleccionados"] = None
+        cfg["territorio"]["fraccion_minima_aoi"] = 1e-12
     cfg["sentinel_s3"].update({
         "archivo_malla": str(malla.resolve()),
         "archivo_metadatos_malla": str(metadatos.resolve()) if metadatos else "",
@@ -136,7 +146,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--configuracion", type=Path, default=Path("configuracion.json"))
     parser.add_argument("--anio", type=int, required=True, choices=range(2020, 2026))
-    parser.add_argument("--malla", type=Path, required=True, help="CSV de la cuadrícula original ya georreferenciada.")
+    parser.add_argument("--malla", type=Path, required=True, help="CSV de la cuadrícula georreferenciada.")
+    parser.add_argument("--malla-municipal", action="store_true",
+                        help="Interpreta la malla como la cuadrícula de 10 km generada desde los polígonos municipales; ignora los 49 cortes históricos.")
     parser.add_argument("--metadatos-malla", type=Path, default=None, help="JSON con CRS si el CSV no trae la columna crs.")
     parser.add_argument("--salida", type=Path, default=None)
     args = parser.parse_args()
@@ -145,7 +157,7 @@ def main():
         parser.error(f"No encuentro la malla original: {args.malla}")
     trabajo_cfg = root / f".config_sentinel_features_{args.anio}.json"
     crear_config_temporal(args.configuracion.resolve(), trabajo_cfg, args.malla, args.metadatos_malla,
-                          f"resultados_sentinel_features_{args.anio}")
+                          f"resultados_sentinel_features_{args.anio}", args.malla_municipal)
     try:
         cfg = sentinel_s3.configuracion(trabajo_cfg, anio=args.anio)
         sentinel_s3.preparar(cfg)
