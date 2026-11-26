@@ -58,17 +58,30 @@ Estos valores son una evaluación retrospectiva pequeña con solo tres años de 
 
 La semilla de los modelos de árboles está fijada en 42. Los cortes respetan el orden temporal: para probar un año solo se entrena con muestras cuyo año objetivo es anterior. El archivo de salida conserva tanto los modelos entrenados como las tablas y métricas que permiten revisar la predicción.
 
-## Incorporación ambiental (en preparación de datos)
+## Clima y Sentinel-2
 
-El entrenador admite `--features-ambientales datos/features_ambientales.csv`. Cada fila debe resumir un municipio-año e incluir estas columnas:
+El flujo ambiental se prepara con los módulos del repositorio. ERA5-Land necesita una cuenta/licencia de Copernicus CDS y su token configurado en el entorno local. No compartas el token. Ejecuta la descarga de los años disponibles:
 
-`CVEGEO, Anio, precipitacion_total_anual_mm, dias_lluviosos_gt1mm, ndvi_mediana, evi_mediana, savi_mediana, ndwi_mediana, sentinel_escenas_validas`.
+```bash
+python lluvia_historica.py todo
+```
 
-El pipeline crea las variables ambientales con rezago y usa solo años anteriores al año objetivo. Si faltan valores o cobertura para un municipio, se detiene en lugar de emitir un pronóstico ambiental parcial.
+Para Sentinel-2 se leen COG públicos de Earth Search por HTTP Range; no se necesita transferirlos a S3. El extractor usa los 49 recuadros georreferenciados seleccionados para el proyecto, aplica el filtro de calidad SCL, calcula índices con reflectancia L2A y deja una caché SQLite para reanudar. Ejecuta cada año 2020–2025:
 
-El repositorio todavía no contiene las salidas ERA5-Land ni las estadísticas Sentinel-2. El script `lluvia_historica.py` produce CSV diarios municipales una vez descargado ERA5-Land; `preparar_features_ambientales.py` resume esa lluvia y la combina con un CSV de índices Sentinel anual:
+```bash
+python extraer_features_sentinel.py --anio 2025 --malla datos/sentinel2/cortes_georreferenciados.csv --metadatos-malla datos/sentinel2/metadatos.json
+```
 
-`python preparar_features_ambientales.py --lluvia-root datos/lluvia_era5_land --sentinel-anual datos/sentinel/features_sentinel_anual.csv`
+Repite el comando para cada año disponible. `--malla` debe ser el CSV georreferenciado de la cuadrícula original, con los mismos cortes del mapa. Si la malla ya tiene una columna `crs`, se puede omitir `--metadatos-malla`. El extractor produce `datos/sentinel/features_sentinel_municipio_<año>.csv`.
 
-El código Sentinel existente descarga bandas crudas al bucket configurado, pero todavía no calcula la tabla municipal de índices requerida. La selección actual usa recuadros municipales como proxy de vegetación general, no límites de huertas. Por ello, el modelo anterior y sus predicciones 2026 siguen siendo SIAP solamente; no se reentrenan con fuentes ambientales hasta generar y validar ambas series reales.
+Une la lluvia diaria con los resúmenes satelitales:
+
+```bash
+python preparar_features_ambientales.py --lluvia-root datos/lluvia_era5_land --sentinel-anual datos/sentinel --salida datos/features_ambientales.csv
+python pipeline_rendimiento_aguacate.py --features-ambientales datos/features_ambientales.csv
+```
+
+El CSV integrado contiene, por municipio-año: precipitación anual, días lluviosos, racha seca máxima, cobertura de lluvia, mediana de NDVI/EVI/SAVI/NDWI y escenas válidas. El modelo crea rezagos y promedios de hasta tres años; al predecir 2026 solo usa mediciones hasta 2025. Si faltan filas ambientales para los municipios, el pipeline se detiene y no produce un resultado parcial.
+
+La agregación satelital usa recuadros municipales como proxy de vegetación general, no polígonos de huertas de aguacate. Las predicciones previas siguen siendo SIAP solamente; el nuevo modelo ambiental se entrenará cuando se generen y revisen ambos archivos de datos.
 
